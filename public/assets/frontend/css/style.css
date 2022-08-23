@@ -5327,3 +5327,22 @@ video {
 .video-div {
 	margin-top: 200px;
 }
+
+/* ----------- Non-Retina Screens ----------- */
+@media only screen and (max-width: 1200px) { 
+	video{
+		position: fixed;
+		max-height: 100vh!important;
+	}
+	.overlay {
+		height: 119vh!important;
+	}
+
+}
+
+
+.pagination{
+	width: 50%;
+	margin: 0 auto;
+	justify-content: center;
+}

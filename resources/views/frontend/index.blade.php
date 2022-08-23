@@ -91,7 +91,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-lg-5">
                                             <div class="services-thumb">
-                                                <img src="img/bg/service-bg-01.jpg" alt="">
+                                                <img src="{{ asset('assets/frontend/img/bg/service-bg-01.jpg') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="col-lg-7">
@@ -312,7 +312,7 @@
         <!-- faq end -->
 
         <!-- video start -->
-        <section class="video-area gray-bg">
+        <section class="video-area gray-bg" style="z-index: 2;">
             <div class="container-fluid">
                 <div class="row no-gutters">
                     <div class="col-lg-6">
@@ -353,7 +353,7 @@
         <!-- video end -->
 
         <!-- portfolio start -->
-        <section class="portfilo-area pt-120 pb-120">
+        <section class="portfilo-area pt-120 pb-120" style="background-color: #fff; z-index: 3;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -422,7 +422,7 @@
         <!-- portfolio end -->
 
         <!-- section bg black start -->
-        <section class="section-bg-black">
+        <section class="section-bg-black" style="z-index: 2;">
             <!-- brand start -->
             <section class="brand-area brand-2 mt-110 pb-140">
                 <div class="container">
@@ -552,7 +552,7 @@
         <!-- section bg black end -->
 
         <!-- section bg white start -->
-        <section class="section-bg-white">
+        <section class="section-bg-white" style="z-index: 2;">
             <!-- fun fact start -->
             <section class="fun-fact-area pt-120 pb-90">
                 <div class="container">
@@ -732,7 +732,7 @@
         <!-- section bg white end -->
 
         <!-- careers start -->
-        <section class="careers-area">
+        <section class="careers-area" style="z-index: 2;">
             <div class="container">
                 <div class="careers-box">
                     <div class="row align-items-center">

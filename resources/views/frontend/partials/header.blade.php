@@ -31,24 +31,7 @@
                                 <ul>
                                     <li><a href="/">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About</a></li>
-                                    <li><a href="#">Services +</a>
-                                        <ul class="submenu">
-                                            <li><a href="#">Book Writing</a></li>
-                                            <li><a href="#">Book Publishing</a></li>
-                                            <li><a href="#">Book Marketing</a></li>
-                                            <li><a href="#">Book Formatting</a></li>
-                                            <li><a href="#">Video Book Trailers</a></li>
-                                            <li><a href="#">Social Media Marketing</a></li>
-                                            <li><a href="#">Interactive E-Books</a></li>
-                                            <li><a href="#">Creative Writing</a></li>
-                                            <li><a href="#">Press Release Writing</a></li>
-                                            <li><a href="#">Editing & ProofReading</a></li>
-                                            <li><a href="#">Book Cover Design</a></li>
-                                            <li><a href="#">Amazon Marketing</a></li>
-                                            <li><a href="#">Seo Writing</a></li>
-                                            <li><a href="#">Audio Books</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="{{ route('services') }}">Services</a></li>
                                     <li><a href="#">Ghost Writing +</a>
                                         <ul class="submenu">
                                             <li><a href="#">Fiction</a></li>
@@ -66,11 +49,11 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-5 col-8">
-                        <div class="logo-middle text-lg-center">
+
                         <a href="/">
                             <img width="80%" src="{{ asset('assets/frontend/img/logo/newlogo.gif') }}"
                                 alt=""></a>
-                        </div>
+
                     </div>
                     <div class="col-xl-5 col-lg-5 d-none d-lg-block">
                         <div class="header-right d-flex align-items-center justify-content-end">
