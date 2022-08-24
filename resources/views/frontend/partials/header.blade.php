@@ -32,18 +32,7 @@
                                     <li><a href="/">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About</a></li>
                                     <li><a href="{{ route('services') }}">Services</a></li>
-                                    <li><a href="#">Ghost Writing +</a>
-                                        <ul class="submenu">
-                                            <li><a href="#">Fiction</a></li>
-                                            <li><a href="#">Beauty GhostWriting</a></li>
-                                            <li><a href="#">Business GhostWriting</a></li>
-                                            <li><a href="#">Fantasy GhostWriting</a></li>
-                                            <li><a href="#">Medical GhostWriting</a></li>
-                                            <li><a href="#">ScreenPlay GhostWriting</a></li>
-                                            <li><a href="#">Non Fiction</a></li>
-                                            <li><a href="#">Blog GhostWriting</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="{{ route('ghostwriting-services') }}">GhostWriting</a></li>
                                 </ul>
                             </nav>
                         </div>

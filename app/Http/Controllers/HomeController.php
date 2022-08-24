@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\GhostWritingServices;
 use App\Models\Service;
 use Facade\FlareClient\View;
 use Illuminate\Http\Request;
@@ -35,6 +36,25 @@ class HomeController extends Controller
             'service' => $service
         ]);
     }
+
+    public function ghostWritingServices()
+    {
+        $ghostwritingservices = GhostWritingServices::paginate(6);
+
+        return view('frontend.ghostwriting-services')->with([
+            'ghostwritingservices' => $ghostwritingservices
+        ]);
+    }
+
+    public function ghostWritingService($id)
+    {
+        $ghostwritingservice = GhostWritingServices::where('id', $id)->first();
+
+        return view('frontend.ghostwriting-service')->with([
+            'ghostwritingservice' => $ghostwritingservice
+        ]);
+    }
+
 
     public function contact()
     {
