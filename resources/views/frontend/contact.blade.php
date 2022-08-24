@@ -15,7 +15,7 @@
                     <div class="col-md-4">
                         <div class="breadcrumb-list mb-30">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>Contact</li>
                             </ul>
                         </div>
@@ -46,29 +46,40 @@
                                     <span>Estimate For Projects</span>
                                     <h2>Share Work Details</h2>
                                 </div>
-                                <form class="contact-form">
+                                <form class="contact-form" method="POST" action="{{ route('contact.store') }}">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="contact-input">
-                                                <input type="text" placeholder="Full name">
+                                                <input type="text" name="name" required placeholder="Full Name">
                                                 <i class="ti-user"></i>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="contact-input">
-                                                <input type="email" placeholder="Email address">
+                                                <input type="email" name="email" required placeholder="Email address">
                                                 <i class="ti-email"></i>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
+                                            <div class="contact-input">
+                                                <input type="text" name="profession" required placeholder="Profession">
+                                                <i class="ti-user"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="contact-input">
+                                                <input type="tel" name="cnumber" required placeholder="Contact Number">
+                                                <i class="ti-contact"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
                                             <div class="subject-filter">
-                                                <select name="select" id="select">
-                                                    <option value="1">Subject</option>
-                                                    <option value="2">Software Development</option>
-                                                    <option value="3">Web Design</option>
-                                                    <option value="4">UX Design</option>
-                                                    <option value="4">Game Design</option>
-                                                    <option value="4">Consultancy</option>
+                                                <select name="country" id="select">
+                                                    <option value="1">Select Region</option>
+                                                    @foreach ($countries as $country)
+                                                        <option value="2">{{ $country->name }}</option>
+                                                    @endforeach
                                                 </select>
                                             </div>
                                         </div>

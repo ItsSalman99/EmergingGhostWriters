@@ -110,7 +110,7 @@
         <script src="{{ asset('assets/frontend/js/jquery.magnific-popup.min.js') }}"></script>
         <script src="{{ asset('assets/frontend/js/plugins.js') }}"></script>
         <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
-    </body>
+        @include('sweetalert::alert')
 
-<!-- Mirrored from xpressrow.com/html/duxin/demo/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 12:37:58 GMT -->
+    </body>
 </html>
