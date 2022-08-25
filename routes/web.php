@@ -13,3 +13,6 @@ Route::get('/service/{id}', [HomeController::class, 'service'])->name('service')
 
 Route::get('/ghostwriting-services', [HomeController::class, 'ghostWritingServices'])->name('ghostwriting-services');
 Route::get('/ghostwriting-services/{id}', [HomeController::class, 'ghostWritingService'])->name('ghostwriting-service');
+
+
+require __DIR__.'/auth.php';
