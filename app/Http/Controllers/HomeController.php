@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Country;
 use App\Models\GhostWritingServices;
 use App\Models\Service;
 use Facade\FlareClient\View;
@@ -11,7 +12,11 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return View('frontend.index');
+        $countries = Country::all();
+
+        return view('frontend.index')->with([
+            'countries' => $countries
+        ]);
     }
 
     public function about()
@@ -26,6 +31,11 @@ class HomeController extends Controller
         return view('frontend.services')->with([
             'services' => $services
         ]);
+    }
+
+    public function portfolio()
+    {
+        return view('frontend.portfolio');
     }
 
     public function service($id)

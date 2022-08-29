@@ -77,6 +77,113 @@
         </section>
         <!-- about end -->
 
+        <!-- mission start -->
+        <section class="fun-fact-area pt-120 pb-90">
+            <div class="container">
+                <div class="ff-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="fun-fact-img mb-30">
+                                <img src="{{ asset('assets/frontend/img/bg/fun-fact-img.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="fun-fact-content mb-30">
+                                <div class="section-title">
+                                    <span>Our Mission</span>
+                                    <h2>We're on a mission....</h2>
+                                </div>
+                                <p>An agency usually provides a service, like an aid organization or a
+                                    government bureau. If you're looking for a job, an employment agency might be able
+                                    to help. The Latin word agere means</p>
+                                <div class="ff-count pt-20">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="ff-count-single">
+                                                <div class="ff-icon">
+                                                    <i class="ti-arrow-up"></i>
+                                                </div>
+                                                <div class="ff-count-text">
+                                                    <h3>8.93%</h3>
+                                                    <span>ncrease In Monthly</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="ff-count-single">
+                                                <div class="ff-icon icon-2">
+                                                    <i class="ti-arrow-down"></i>
+                                                </div>
+                                                <div class="ff-count-text">
+                                                    <h3>50k+</h3>
+                                                    <span>Revenue generated</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission end-->
+
+        <!-- mission start -->
+        <section class="fun-fact-area pt-120 pb-90">
+            <div class="container">
+                <div class="ff-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="fun-fact-img mb-30">
+                                <img src="{{ asset('assets/frontend/img/bg/fun-fact-img.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="fun-fact-content mb-30">
+                                <div class="section-title">
+                                    <span>Our Goal</span>
+                                    <h2>Our Goal<h2>
+                                </div>
+                                <p>An agency usually provides a service, like an aid organization or a
+                                    government bureau. If you're looking for a job, an employment agency might be able
+                                    to help. The Latin word agere means</p>
+                                <div class="ff-count pt-20">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="ff-count-single">
+                                                <div class="ff-icon">
+                                                    <i class="ti-arrow-up"></i>
+                                                </div>
+                                                <div class="ff-count-text">
+                                                    <h3>8.93%</h3>
+                                                    <span>ncrease In Monthly</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="ff-count-single">
+                                                <div class="ff-icon icon-2">
+                                                    <i class="ti-arrow-down"></i>
+                                                </div>
+                                                <div class="ff-count-text">
+                                                    <h3>50k+</h3>
+                                                    <span>Revenue generated</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission end-->
+
+
         <!-- skill start -->
         <section class="skill-area white-bg pt-120 pb-30">
             <div class="container">
@@ -170,7 +277,7 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Experts</span>
-                    <h2>Our Team Members</h2>
+                    <h2>Our Writers</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -178,14 +285,8 @@
                             <div class="team-thumb mb-30">
                                 <img src="{{ asset('assets/frontend/img/team/team-01.png') }}" alt="">
                             </div>
-                            <div class="team-text mb-35">
+                            <div class="team-text mb-35" style="padding-bottom: 20px;">
                                 <h3><a href="team-details.html">Miranda H. Halim</a></h3>
-                                <span>Founder</span>
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -194,14 +295,8 @@
                             <div class="team-thumb mb-30">
                                 <img src="{{ asset('assets/frontend/img/team/team-02.png') }}" alt="">
                             </div>
-                            <div class="team-text mb-35">
+                            <div class="team-text mb-35" style="padding-bottom: 20px;">
                                 <h3><a href="#">Justin Carr</a></h3>
-                                <span>Founder</span>
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -210,14 +305,8 @@
                             <div class="team-thumb mb-30">
                                 <img src="{{ asset('assets/frontend/img/team/team-03.png') }}" alt="">
                             </div>
-                            <div class="team-text mb-35">
+                            <div class="team-text mb-35" style="padding-bottom: 20px;">
                                 <h3><a href="#">Amanda Rees</a></h3>
-                                <span>Founder</span>
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -226,14 +315,8 @@
                             <div class="team-thumb mb-30">
                                 <img src="{{ asset('assets/frontend/img/team/team-04.png') }}" alt="">
                             </div>
-                            <div class="team-text mb-35">
+                            <div class="team-text mb-35" style="padding-bottom: 20px;">
                                 <h3><a href="#">Ehsan Ahmed</a></h3>
-                                <span>Founder</span>
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>

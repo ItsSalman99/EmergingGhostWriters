@@ -49,7 +49,7 @@
                             <div class="menu-right">
                                 <nav class="main-menu">
                                     <ul>
-                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                                         <li><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </nav>

@@ -12,91 +12,116 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/backend/assets/css/font-awesome.css') }}">
-    <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/backend/assets/css/vendors/icofont.css') }}">
-    <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/vendors/themify.css') }}">
-    <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/vendors/flag-icon.css') }}">
-    <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/vendors/feather-icon.css') }}">
-    <!-- Plugins css start-->
-    <!-- Plugins css Ends-->
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/vendors/bootstrap.css') }}">
-    <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/style.css') }}">
-    <link id="color" rel="stylesheet" href="{{ asset('assets/backend/assets/css/color-1.css') }}" media="screen">
-    <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/assets/css/responsive.css') }}">
+
+    <style>
+        /* 'Open Sans' font from Google Fonts */
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+        body {
+            background-color: #000;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .login {
+            width: 400px;
+            margin: 16px auto;
+            font-size: 16px;
+        }
+
+        /* Reset top and bottom margins from certain elements */
+        .login-header,
+        .login p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        /* The triangle form is achieved by a CSS hack */
+        .login-triangle {
+            width: 0;
+            margin-right: auto;
+            margin-left: auto;
+            border: 12px solid transparent;
+            border-bottom-color: #28d;
+        }
+
+        .login-header {
+            background: #28d;
+            padding: 20px;
+            font-size: 1.4em;
+            font-weight: normal;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .login-container {
+            background: #ebebeb;
+            padding: 12px;
+        }
+
+        /* Every row inside .login-container is defined with p tags */
+        .login p {
+            padding: 12px;
+        }
+
+        .login input {
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            border-width: 1px;
+            border-style: solid;
+            padding: 16px;
+            outline: 0;
+            font-family: inherit;
+            font-size: 0.95em;
+        }
+
+        .login input[type="email"],
+        .login input[type="password"] {
+            background: #fff;
+            border-color: #bbb;
+            color: #555;
+        }
+
+        /* Text fields' focus effect */
+        .login input[type="email"]:focus,
+        .login input[type="password"]:focus {
+            border-color: #888;
+        }
+
+        .login input[type="submit"] {
+            background: #28d;
+            border-color: transparent;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .login input[type="submit"]:hover {
+            background: #17c;
+        }
+
+        /* Buttons' focus effect */
+        .login input[type="submit"]:focus {
+            border-color: #05a;
+        }
+    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- login page start-->
-    <div class="container-fluid p-0">
-        <div class="row m-0">
-            <div class="col-12 p-0">
-                <div class="login-card">
-                    <div>
-                        <div>
-                            <a class="logo" href="/">
-                                <img class="img-fluid for-light"
-                                    src="{{ asset('assets/frontend/img/logo/newlogo.gif') }}" width="20%"
-                                    alt="looginpage">
-                            </a>
-                        </div>
-                        <div class="login-main">
-                            <x-auth-validation-errors class="bg-danger p-2 rounded-full mb-4" :errors="$errors" />
-                            <form action="{{ route('login') }}" method="POST" class="theme-form">
-                                @csrf
-                                <h4>Sign in to account</h4>
-                                <p>Enter your email & password to login</p>
-                                <div class="form-group">
-                                    <label class="col-form-label">Email Address</label>
-                                    <input class="form-control" type="email" name="email" required=""
-                                        placeholder="You email?">
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-form-label">Password</label>
-                                    <div class="form-input position-relative">
-                                        <input class="form-control" type="password" name="password" required=""
-                                            placeholder="*********">
-                                        {{-- <div class="show-hide"><span class="show"> </span>
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                <div class="form-group mb-0">
-                                    <div class="checkbox p-0">
-                                        <input id="checkbox1" type="checkbox">
-                                        <label class="text-muted" for="checkbox1">Remember password</label>
-                                    </div><a class="link" href="forget-password.html">Forgot password?</a>
-                                    <div class="text-end mt-3">
-                                        <button class="btn btn-primary btn-block w-100" type="submit">Sign in</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- latest jquery-->
-        <script src="../assets/js/jquery-3.5.1.min.js"></script>
-        <!-- Bootstrap js-->
-        <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
-        <!-- feather icon js-->
-        <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
-        <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
-        <!-- scrollbar js-->
-        <!-- Sidebar jquery-->
-        <script src="../assets/js/config.js"></script>
-        <!-- Plugins JS start-->
-        <!-- Plugins JS Ends-->
-        <!-- Theme js-->
-        <script src="../assets/js/script.js"></script>
-        <!-- login js-->
-        <!-- Plugin used-->
+    <div class="login">
+        <div class="login-triangle"></div>
+
+        <h2 class="login-header">Log in</h2>
+
+        <form class="login-container" action="{{ route('login') }}" method="POST">
+            @csrf
+            <x-auth-validation-errors class="text-white bg-danger p-2 rounded-full mb-4" :errors="$errors" />
+
+            <p><input type="email" placeholder="Email" name="email"></p>
+            <p><input type="password" placeholder="Password" name="password"></p>
+            <p><input type="submit" value="Log in"></p>
+        </form>
     </div>
 </body>
 

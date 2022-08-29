@@ -1121,6 +1121,8 @@ select {
 
 .section-bg-black {
 	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .section-bg-black::before {
@@ -3027,8 +3029,8 @@ select {
 	color: #777777;
 	border: none;
 	font-weight: 400;
-	font-size: 16px;
-	padding: 15px 38px;
+	font-size: 14px;
+	padding: 15px 30px;
 	cursor: pointer;
 	transition: .3s;
 	margin-right: 25px;
@@ -3046,7 +3048,8 @@ select {
 
 .portfolio-menu button:hover,
 .portfolio-menu button.active {
-	color: #1b2026;
+	color: #fff;
+	background-color: #1b2026;
 }
 
 .load-more-btn a i {
@@ -5308,14 +5311,15 @@ select {
 }
 
 video {
-	min-width: 100%;
-	min-height: 100vh;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 	z-index: 1;
 }
 
 .overlay {
 	width: 100%;
-	height: 108vh;
+	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -5331,13 +5335,9 @@ video {
 /* ----------- Non-Retina Screens ----------- */
 @media only screen and (max-width: 1200px) { 
 	video{
-		position: fixed;
-		max-height: 100vh!important;
+		height: 120vh!important;
+		object-fit: cover;
 	}
-	.overlay {
-		height: 119vh!important;
-	}
-
 }
 
 
