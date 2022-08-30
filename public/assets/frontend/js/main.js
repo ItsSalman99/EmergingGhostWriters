@@ -103,9 +103,8 @@
 		items:1,
 		dots:false,
 		autoplay:true,
-		autoplayTimeout:5000,
-		smartSpeed:500,
-		autoplayHoverPause:true,
+		smartSpeed:1000,
+		autoplayHoverPause:false,
 		responsive:{
 			0:{
 				items:2
@@ -130,7 +129,7 @@
 		dots:false,
 		autoplay:true,
 		smartSpeed: 1000,
-		autoplayTimeout:5000,
+		autoplayTimeout:2000,
 		autoplayHoverPause:true,
 		responsive:{
 			0:{
@@ -366,6 +365,9 @@
 		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 	});
 
-
-
 })(jQuery);
+
+
+function ClosePopUp() {
+	$('#pop-up').remove();
+}

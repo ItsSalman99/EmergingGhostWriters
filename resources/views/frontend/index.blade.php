@@ -230,53 +230,24 @@
                         <div class="brand-bg">
                             <div class="brand-active-2 owl-carousel">
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-01.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image" src="{{ asset('assets/frontend/img/brand/brand-01.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/amazon.png') }}" alt="amazon">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-02.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-02.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/kobo.png') }}" alt="kobo">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-03.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-03.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img src="{{ asset('assets/frontend/img/brand/scribd.png') }}"
+                                        style="width: 50%!important" alt="scribd">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-04.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-04.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img src="{{ asset('assets/frontend/img/brand/barnesnoble.png') }}" alt="barnesnoble"
+                                        style="width: 50%!important">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-05.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-05.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img class="" style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/createspace.png') }}" alt="createspace">
                                 </div>
                             </div>
                         </div>
@@ -294,54 +265,24 @@
                         <div class="brand-bg">
                             <div class="brand-active-2 owl-carousel">
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-01.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-01.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/lulu.png') }}" alt="amazon">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-02.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-02.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/ingramspark.png') }}" alt="kobo">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-03.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-03.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img src="{{ asset('assets/frontend/img/brand/draft2digital.png') }}"
+                                        style="width: 50%!important" alt="scribd">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-04.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-04.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img src="{{ asset('assets/frontend/img/brand/smashwords.png') }}" alt="barnesnoble"
+                                        style="width: 50%!important">
                                 </div>
                                 <div class="single-brand">
-                                    <a class="partner-logo" href="#">
-                                        <img class="before-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-05.png') }}"
-                                            alt="image_not_found">
-                                        <img class="after-image"
-                                            src="{{ asset('assets/frontend/img/brand/brand-05.png') }}"
-                                            alt="image_not_found">
-                                    </a>
+                                    <img class="" style="width: 50%!important"
+                                        src="{{ asset('assets/frontend/img/brand/createspace.png') }}" alt="createspace">
                                 </div>
                             </div>
                         </div>
@@ -351,7 +292,7 @@
         </section>
         <!-- brand end -->
 
-        
+
 
         <!-- section bg black start -->
         <section class="section-bg-black" style="z-index: 2;">
@@ -476,9 +417,8 @@
                         </div>
                         <div class="col-xl-5 col-lg-6">
                             <ul class="careers-right">
-                                <li><a href="#">Consulting Executive</a></li>
-                                <li><a href="#">UI & UX Designer</a></li>
-                                <li><a href="#">Web Developer</a></li>
+                                <li><a>Our Live Chat Support</a></li>
+                                <li><a>Get Free Consultation</a></li>
                             </ul>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index()
     {
         $countries = Country::all();
-
+        
         return view('frontend.index')->with([
             'countries' => $countries
         ]);
