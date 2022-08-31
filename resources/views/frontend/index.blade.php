@@ -12,13 +12,12 @@
                         <div class="banner-content pt-100">
                             <span style="background-color: #fff; color: #000; padding: 10px; border-radius: 10px;">Emerging
                                 Ghost Writers</span>
-                            <h2>Content creation <br> on your terms</h2>
+                            <h2>Best Professional Ghostwriting <br> Services! <br></h2>
                             <p>
-                                Find the perfect fit for your project, whether you’re a business or personal brand, The
-                                Emerging Ghost Writers can get it done!
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nam consequuntur non pariatur
-                                a possimus? Expedita, autem vero id quasi, recusandae enim neque suscipit velit commodi
-                                obcaecati, voluptate voluptas distinctio.
+                                The unparalleled brilliance of singlehood shapes readers' perspectives at Emerging
+                                Ghostwriters. Our writers craft knowledgeable content that displays genuine professionalism
+                                while showcasing inventiveness. Our team of motivational ghostwriters is committed enough to
+                                increasing productivity with our content.
                             </p>
                             <div class="banner-btn">
                                 <a class="thm-btn thm-btn-2" href="#">Chat With US</a>
@@ -69,48 +68,49 @@
                         <div class="faq-content pt-120 pb-120">
                             <div class="section-title">
                                 <span>Your project is in good hands.</span>
-                                <h2>Highest quality writers</h2>
+                                <h2>Exceptional Ghostwriting Services</h2>
                             </div>
                             <div class="faq-block">
                                 <ul class="accordion-box clearfix">
                                     <li class="accordion block active-block">
                                         <div class="acc-btn">
-                                            How can i customized this theme?
+                                            What is ghostwriting?
                                         </div>
                                         <div class="acc-content current">
                                             <div class="content">
                                                 <div class="text">
-                                                    By contrast, structure are those factors of influence such as social
-                                                    class, religion, gender, ethnicity, ability, customs, etc. that
-                                                    determine or limit an agent.
+                                                    Ghostwriting is a collaborative writing process where clients and
+                                                    ghostwriters work together without the latter receiving credit for the
+                                                    results.
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="accordion block">
                                         <div class="acc-btn">
-                                            How can i customized this theme?
+                                            Is ghostwriting illegal?
                                         </div>
                                         <div class="acc-content">
                                             <div class="content">
                                                 <div class="text">
-                                                    By contrast, structure are those factors of influence such as social
-                                                    class, religion, gender, ethnicity, ability, customs, etc. that
-                                                    determine or limit an agent.
+                                                    No. The practice of ghostwriting is accepted everywhere. It is a
+                                                    well-known writing service that empowers authors and writers to get
+                                                    their books written, edited, and formatted, especially if they don't
+                                                    have the necessary creative abilities or the time to devote to creating
+                                                    a whole book.
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="accordion block">
                                         <div class="acc-btn">
-                                            How can i customized this theme?
+                                            How much does your ghostwriting service cost?
                                         </div>
                                         <div class="acc-content">
                                             <div class="content">
                                                 <div class="text">
-                                                    By contrast, structure are those factors of influence such as social
-                                                    class, religion, gender, ethnicity, ability, customs, etc. that
-                                                    determine or limit an agent.
+                                                    Depending on the service you select, our expert ghostwriting services
+                                                    have a range of prices.
                                                 </div>
                                             </div>
                                         </div>
@@ -144,17 +144,14 @@
                             <div class="section-title">
                                 <span>Our Guarantee</span>
                                 <h2>
-                                    Why we guarantee
-                                    book sales?
+                                    Why Should You Hire Our Services?
                                 </h2>
                             </div>
                             <p>
-                                APC is an Agency formed by Top Tier Cert. Publishers and Marketers who’ve worked with Top
-                                Publishing Firms like Simon and Schuster, Harper Collins, Penguin/Random House, Hachette
-                                Book Group & Macmillan that guarantee book sales unlike any other traditional publishing
-                                platform.
-
-
+                                We prioritize providing excellent customer service. There are many ghostwriting services on
+                                the market. Unfortunately, not everyone offers these services in a professional and
+                                high-quality manner. Customers need good customer service. It serves as the link between the
+                                client and the creative team.
                             </p>
                         </div>
                     </div>
@@ -179,12 +176,15 @@
                             <div class="col-lg-6">
                                 <div class="fun-fact-content mb-30">
                                     <div class="section-title">
-                                        <span>Fun Fact</span>
-                                        <h2>We carefull about our clients</h2>
+                                        <span>Emerging Ghost Writers</span>
+                                        <h2>The Most Professional Ghostwriting Services in the Business</h2>
                                     </div>
-                                    <p>An agency usually provides a service, like an aid organization or a
-                                        government bureau. If you're looking for a job, an employment agency might be able
-                                        to help. The Latin word agere means</p>
+                                    <p>
+                                        Hire a ghostwriter for your assignment through our site to avoid the concern that
+                                        drains your thoughts. Our ghostwriters' excellent book writing abilities bring all
+                                        the storylines to life. Our authors can handle any topic, whether it's a narrative
+                                        of rags to riches, a historical account, or the tale of a mythical realm.
+                                    </p>
                                     <div class="ff-count pt-20">
                                         <div class="row">
                                             <div class="col-6">
@@ -193,19 +193,19 @@
                                                         <i class="ti-arrow-up"></i>
                                                     </div>
                                                     <div class="ff-count-text">
-                                                        <h3>8.93%</h3>
-                                                        <span>ncrease In Monthly</span>
+                                                        <h3>10+</h3>
+                                                        <span>Years Of Experience</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="ff-count-single">
-                                                    <div class="ff-icon icon-2">
-                                                        <i class="ti-arrow-down"></i>
+                                                    <div class="ff-icon">
+                                                        <i class="ti-arrow-up"></i>
                                                     </div>
                                                     <div class="ff-count-text">
-                                                        <h3>50k+</h3>
-                                                        <span>Revenue generated</span>
+                                                        <h3>700+</h3>
+                                                        <span>Books Written</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -292,97 +292,7 @@
         </section>
         <!-- brand end -->
 
-
-
-        <!-- section bg black start -->
-        <section class="section-bg-black" style="z-index: 2;">
-            <!-- testimonial start -->
-            <section class="testimonial-area testimonial-2">
-                <div class="container">
-                    <div class="section-title">
-                        <span>Testimonials</span>
-                        <h2>Our Client Feedbacks</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial-active owl-carousel">
-                                <div class="testimonial-single">
-                                    <p>A Private Limited is the most popular type of partnership Malta. The limited
-                                        liability is, in fact, the only type of company allowed.</p>
-                                    <div class="tm-author">
-                                        <div class="tm-author-img">
-                                            <img src="{{ asset('assets/frontend/img/testimonial/tm-author-04.png') }}"
-                                                alt="">
-                                        </div>
-                                        <div class="tm-author-text">
-                                            <h4>Milixer X. Xinban</h4>
-                                            <span><span>Founder</span>, Xinban Co.</span>
-                                        </div>
-                                        <div class="tm-icon">
-                                            <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-single">
-                                    <p>A Private Limited is the most popular type of partnership Malta. The limited
-                                        liability is, in fact, the only type of company allowed.</p>
-                                    <div class="tm-author">
-                                        <div class="tm-author-img">
-                                            <img src="{{ asset('assets/frontend/img/testimonial/tm-author-05.png') }}"
-                                                alt="">
-                                        </div>
-                                        <div class="tm-author-text">
-                                            <h4>Milixer X. Xinban</h4>
-                                            <span><span>Founder</span>, Xinban Co.</span>
-                                        </div>
-                                        <div class="tm-icon">
-                                            <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-single">
-                                    <p>A Private Limited is the most popular type of partnership Malta. The limited
-                                        liability is, in fact, the only type of company allowed.</p>
-                                    <div class="tm-author">
-                                        <div class="tm-author-img">
-                                            <img src="{{ asset('assets/frontend/img/testimonial/tm-author-06.png') }}"
-                                                alt="">
-                                        </div>
-                                        <div class="tm-author-text">
-                                            <h4>Milixer X. Xinban</h4>
-                                            <span><span>Founder</span>, Xinban Co.</span>
-                                        </div>
-                                        <div class="tm-icon">
-                                            <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-single">
-                                    <p>A Private Limited is the most popular type of partnership Malta. The limited
-                                        liability is, in fact, the only type of company allowed.</p>
-                                    <div class="tm-author">
-                                        <div class="tm-author-img">
-                                            <img src="{{ asset('assets/frontend/img/testimonial/tm-author-04.png') }}"
-                                                alt="">
-                                        </div>
-                                        <div class="tm-author-text">
-                                            <h4>Milixer X. Xinban</h4>
-                                            <span><span>Founder</span>, Xinban Co.</span>
-                                        </div>
-                                        <div class="tm-icon">
-                                            <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- testimonial end -->
-        </section>
-        <!-- section bg black end -->
-
+        @include('frontend.partials.testimonials')
 
         <!-- contact start -->
         <section class="contact-area pb-120" style="margin-top: 100px;">
@@ -392,7 +302,7 @@
                         <div class="contact-form-wrapper">
                             <div class="section-title">
                                 <span>Estimate For Projects</span>
-                                <h2>Share Work Details</h2>
+                                <h3>Waiting For Your Book Writing Dream to Come True?</h3>
                             </div>
                             @include('frontend.partials.contact-form')
                         </div>
@@ -411,7 +321,7 @@
                             <div class="careers-left">
                                 <div class="section-title">
                                     <span>Careers</span>
-                                    <h2>Join our team to create best digital solutions.</h2>
+                                    <h2>Get A Chance To Meet Our Team!</h2>
                                 </div>
                             </div>
                         </div>

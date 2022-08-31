@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $countries = Country::all();
+        $countries = Country::cursor();
         
         return view('frontend.index')->with([
             'countries' => $countries
@@ -21,7 +21,11 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('frontend.about');
+        $countries = Country::cursor();
+
+        return view('frontend.about')->with([
+            'countries' => $countries
+        ]);
     }
 
     public function services()
