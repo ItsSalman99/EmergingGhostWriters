@@ -1,6 +1,9 @@
 @extends('frontend.layout.main')
 
 @section('content')
+
+    @include('frontend.partials.pop-up')
+
     <main>
         <!-- page title start -->
         <section class="page-title-area pt-120 pb-80 black-thm-bg">
@@ -15,7 +18,7 @@
                     <div class="col-md-4">
                         <div class="breadcrumb-list mb-30">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>About</li>
                             </ul>
                         </div>
@@ -47,26 +50,32 @@
                         <div class="about-right mb-30">
                             <div class="section-title">
                                 <span>About Us</span>
-                                <h2>Work With A Dedicated SEO Company</h2>
+                                <h2>Get Your Book Written Through Emerging Ghostwriters</h2>
                             </div>
                             <div class="about-bq-box mb-40">
-                                <p>Help support language! Our dedicated team professional dictionary editors work to provide
-                                    you with accurate</p>
-                                <span><span>Rosalina D.</span> - Founder</span>
+                                <p>
+                                    Professionals in ghostwriting are available to provide immediate assistance with any
+                                    writing, design, or marketing service. We are a group of enthusiastic, engaged, and
+                                    highly creative individuals.
+                                </p>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-12">
                                     <div class="about-box-text">
-                                        <h4>Our Goals</h4>
-                                        <p>App allows users to earn points based on their daily engagement & activities
-                                            using interesting</p>
+                                        <h4>Native Award-Winning Writers</h4>
+                                        <p>Thanks to our creative team approach, every step of the book-writing and
+                                            publishing process receives targeted attention from some industry specialists.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-12">
                                     <div class="about-box-text">
-                                        <h4>Our Missions</h4>
-                                        <p>App allows users to earn points based on their daily engagement & activities
-                                            using interesting</p>
+                                        <h4>Expert Writers</h4>
+                                        <p>
+                                            You'll discover that in a market characterized by impersonal outsourcing &
+                                            unprofessional publishing services, our professionalism & individualized client
+                                            attention stand out.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -91,11 +100,13 @@
                             <div class="fun-fact-content mb-30">
                                 <div class="section-title">
                                     <span>Our Mission</span>
-                                    <h2>We're on a mission....</h2>
+                                    <h2>Our Mission...</h2>
                                 </div>
-                                <p>An agency usually provides a service, like an aid organization or a
-                                    government bureau. If you're looking for a job, an employment agency might be able
-                                    to help. The Latin word agere means</p>
+                                <p>
+                                    Emerging Ghostwriters strives to offer superior writing services all over the world.
+                                    Regardless of the genre, our outstanding ghostwriter specialists deliver top-notch
+                                    writing to everyone.
+                                </p>
                                 <div class="ff-count pt-20">
                                     <div class="row">
                                         <div class="col-6">
@@ -104,19 +115,19 @@
                                                     <i class="ti-arrow-up"></i>
                                                 </div>
                                                 <div class="ff-count-text">
-                                                    <h3>8.93%</h3>
-                                                    <span>ncrease In Monthly</span>
+                                                    <h3>10+</h3>
+                                                    <span>Years Of Experience</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="ff-count-single">
-                                                <div class="ff-icon icon-2">
-                                                    <i class="ti-arrow-down"></i>
+                                                <div class="ff-icon">
+                                                    <i class="ti-arrow-up"></i>
                                                 </div>
                                                 <div class="ff-count-text">
-                                                    <h3>50k+</h3>
-                                                    <span>Revenue generated</span>
+                                                    <h3>700+</h3>
+                                                    <span>Books Written</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -144,11 +155,13 @@
                             <div class="fun-fact-content mb-30">
                                 <div class="section-title">
                                     <span>Our Goal</span>
-                                    <h2>Our Goal<h2>
+                                    <h2>Our Achievement<h2>
                                 </div>
-                                <p>An agency usually provides a service, like an aid organization or a
-                                    government bureau. If you're looking for a job, an employment agency might be able
-                                    to help. The Latin word agere means</p>
+                                <p>
+                                    The top authors, editorial organizations, companies, publishing houses, journals, and
+                                    debut authors are among our clients. We are a reputable company in the ghostwriting
+                                    field, and we have successfully helped our clients reach their publication goals.
+                                </p>
                                 <div class="ff-count pt-20">
                                     <div class="row">
                                         <div class="col-6">
@@ -157,19 +170,19 @@
                                                     <i class="ti-arrow-up"></i>
                                                 </div>
                                                 <div class="ff-count-text">
-                                                    <h3>8.93%</h3>
-                                                    <span>ncrease In Monthly</span>
+                                                    <h3>10+</h3>
+                                                    <span>Years Of Experience</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="ff-count-single">
-                                                <div class="ff-icon icon-2">
-                                                    <i class="ti-arrow-down"></i>
+                                                <div class="ff-icon">
+                                                    <i class="ti-arrow-up"></i>
                                                 </div>
                                                 <div class="ff-count-text">
-                                                    <h3>50k+</h3>
-                                                    <span>Revenue generated</span>
+                                                    <h3>700+</h3>
+                                                    <span>Books Written</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,16 +205,17 @@
                         <div class="skill-left mb-30">
                             <div class="section-title">
                                 <span>About Us</span>
-                                <h2>Choose What Matters To Your Business</h2>
+                                <h2>Get Your Work Done by The Professionals</h2>
                             </div>
-                            <p>Help support language! Our dedicated team professional dictionary editors work to provide you
-                                with accurate</p>
+                            <p>
+                                Become the BEST-SELLING AUTHOR by taking this one step.
+                            </p>
                         </div>
                     </div>
                     <div class="col-xl-5 offset-xl-1 col-lg-6">
                         <div class="skill">
                             <div class="single-skill mb-30">
-                                <span>User Research</span>
+                                <span>Ghost Writing</span>
                                 <div id="bar1" class="barfiller">
                                     <div class="tipWrap">
                                         <span class="tip"></span>
@@ -210,7 +224,7 @@
                                 </div>
                             </div>
                             <div class="single-skill mb-30">
-                                <span>UX Focus</span>
+                                <span>Book Marketing</span>
                                 <div id="bar2" class="barfiller">
                                     <div class="tipWrap">
                                         <span class="tip"></span>
@@ -219,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="single-skill mb-30">
-                                <span>Clients Support</span>
+                                <span>24/7 Support</span>
                                 <div id="bar3" class="barfiller">
                                     <div class="tipWrap">
                                         <span class="tip"></span>
@@ -343,10 +357,13 @@
                     <div class="col-lg-6">
                         <div class="video-content pt-120 pb-100">
                             <div class="section-title">
-                                <span>Get Newsletter</span>
-                                <h2>Get every weekly update feeds</h2>
+                                <span>Emerging Ghost Writers</span>
+                                <h2>We Ensure to Provide Better Service!</h2>
                             </div>
-                            <p>Allows users to earn points based on their daily engagement & activities using interesting
+                            <p>
+                                The Emerging Ghostwriters was founded to provide customers with what they had been looking
+                                for. Customers can establish genuine connections with this collaborative and seamless
+                                content creation platform!
                             </p>
                             <div class="video-text-box pt-20">
                                 <div class="vt-icon">

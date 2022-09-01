@@ -367,7 +367,6 @@
 
 })(jQuery);
 
-
 function ClosePopUp() {
 	$('#pop-up').remove();
 }

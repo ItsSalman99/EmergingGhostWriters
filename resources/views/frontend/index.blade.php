@@ -1,6 +1,9 @@
 @extends('frontend.layout.main')
 
 @section('content')
+
+    @include('frontend.partials.pop-up')
+
     <main>
         <!-- banner start -->
         <section class="banner-area banner-2">

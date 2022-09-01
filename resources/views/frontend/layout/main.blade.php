@@ -30,8 +30,6 @@
 
 <body>
 
-    @include('frontend.partials.pop-up')
-
     <!-- preloader start -->
     <div class="preloader">
         <div class="lds-ellipsis">

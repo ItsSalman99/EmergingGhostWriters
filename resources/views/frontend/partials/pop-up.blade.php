@@ -13,40 +13,43 @@
                 </div>
             </div>
             <br>
-            <div class="row my-2">
-                <div class="col">
-                    <input type="text" name="name" required placeholder="Your Name?" class="form-control"
+            <form action="{{ route('contact.store') }}" method="post">
+                @csrf
+                <div class="row my-2">
+                    <div class="col">
+                        <input type="text" name="name" required placeholder="Your Name?" class="form-control"
+                            id="">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="profession" required placeholder="Your Profession?"
+                            class="form-control" id="">
+                    </div>
+                </div>
+                <div class="my-2">
+                    <input type="email" name="email" placeholder="Your Email?" class="form-control" id="">
+                </div>
+                <div class="my-2">
+                    <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control"
                         id="">
                 </div>
-                <div class="col">
-                    <input type="text" name="profession" required placeholder="Your Profession?" class="form-control"
-                        id="">
+                <div class="my-2">
+                    <div class="subject-filter">
+                        <select name="country" class="form-control" id="">
+                            <option value="">--- Select Region ---</option>
+                            @foreach ($countries as $country)
+                                <option value="{{ $country->id }}">
+                                    {{ $country->name }}
+                                </option>
+                            @endforeach
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="my-2">
-                <input type="email" name="email" placeholder="Your Email?" class="form-control" id="">
-            </div>
-            <div class="my-2">
-                <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control"
-                    id="">
-            </div>
-            <div class="my-2">
-                <div class="subject-filter">
-                    <select name="country" class="form-control" id="">
-                        <option value="">--- Select Region ---</option>
-                        @foreach ($countries as $country)
-                            <option value="{{ $country->id }}">
-                                {{ $country->name }}
-                            </option>
-                        @endforeach
-                    </select>
+                <div class="my-2">
+                    <button class="thm-btn thm-btn-2 bg-primary text-white" style="width: 100%!important">
+                        Send
+                    </button>
                 </div>
-            </div>
-            <div class="my-2">
-                <button class="thm-btn thm-btn-2 bg-primary text-white" style="width: 100%!important">
-                    Send
-                </button>
-            </div>
+            </form>
         </div>
     </div>
 </div>

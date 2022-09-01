@@ -8,8 +8,9 @@
                         <div class="footer-widget mb-30">
                             <h3 class="title">About Us</h3>
                             <div class="about-text mb-25">
-                                <p>Finding the mental wherewithal to get into workout mode can take some serious effort,
-                                    especially when all your activities happen at Contact. It can be done, but you have
+                                <p>
+                                    We are an enthusiastic group of writers, managers, editors, and designers dedicated
+                                    to turning your ideas into reality.
                                 </p>
                             </div>
                             <div class="f-about-social">
@@ -38,11 +39,9 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div style="float: right" >
-                            <img width="50%" src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}" alt="">
-                            <br>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero praesentium voluptates maiores
-                                nam aut laborum pariatur veritatis perferendis modi nesciunt.</p>
+                        <div style="float: right">
+                            <img width="50%" style="border-radius: 50px;" src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}"
+                                alt="">
                         </div>
                     </div>
                 </div>
@@ -54,7 +53,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="copyright-text text-center">
-                        <p>Copyright By &copy; <a href="#" target="_blank">{{env('APP_NAME')}}</a></p>
+                        <p>Copyright By &copy; <a href="#" target="_blank">{{ env('APP_NAME') }}</a></p>
                     </div>
                 </div>
             </div>

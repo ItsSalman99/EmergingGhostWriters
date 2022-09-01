@@ -55,7 +55,7 @@
                                 </nav>
                             </div>
                             <div class="header-btn">
-                                <a class="thm-btn thm-btn-3" href="#">Get A Quote</a>
+                                <a class="thm-btn thm-btn-3" onclick="OpenPopUp()">Get A Quote</a>
                             </div>
                         </div>
                     </div>
