@@ -37,21 +37,18 @@
                                 <div class="port-thumb"
                                     style="background-color: tomato; border-bottom: 5px solid #000; text-align: center; padding: 20px;">
                                     <img style="width: 50%!important; margin: 0 auto!important;"
-                                        src="{{ asset('assets/frontend/img/icon/service-'.$service->id . '.png') }}" alt="">
+                                        src="{{ asset('assets/frontend/img/icon/service-' . $service->id . '.png') }}"
+                                        alt="">
                                 </div>
                                 <div class="port-content">
                                     <div class="port-icon">
-                                        <a href="{{ route('service', ['id'=>$service->id]) }}" class="bg-dark">
+                                        <a href="{{ route('service', ['id' => $service->id]) }}" class="bg-dark">
                                             <i class="ti-arrow-right text-white"></i>
                                         </a>
                                     </div>
                                     <div class="port-text">
                                         <h4><a href="#">{{ $service->name }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid
-                                            perspiciatis
-                                            magnam explicabo ea, nulla officia reiciendis facere dolorum ad porro quasi est
-                                            neque voluptatum? Eligendi ratione fugit optio illo.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <p class="text-ellipsis--2">{{ $service->description }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +92,8 @@
                                 <i class="ti-arrow-up"></i>
                             </div>
                             <div class="counter-text">
-                                <h3>8.93%</h3>
-                                <p>Increase In Monthly</p>
+                                <h3>1K</h3>
+                                <p>Clients Worked With</p>
                             </div>
                         </div>
                     </div>
@@ -106,8 +103,8 @@
                                 <i class="ti-arrow-down"></i>
                             </div>
                             <div class="counter-text">
-                                <h3>50k+</h3>
-                                <p>Revenue generated</p>
+                                <h3>7k+</h3>
+                                <p>Completed Projects</p>
                             </div>
                         </div>
                     </div>
@@ -117,8 +114,8 @@
                                 <i class="ti-arrow-up"></i>
                             </div>
                             <div class="counter-text">
-                                <h3>8.93%</h3>
-                                <p>Increase In Monthly</p>
+                                <h3>250M+</h3>
+                                <p>Words Written</p>
                             </div>
                         </div>
                     </div>

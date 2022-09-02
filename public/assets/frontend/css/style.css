@@ -5368,8 +5368,8 @@ video {
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.pop-up{
-	width: 70%!important;
+.pop-up {
+	width: 70% !important;
 	border-radius: 20px;
 	position: fixed;
 	top: 20%;
@@ -5378,10 +5378,21 @@ video {
 	background-color: #eee;
 	box-shadow: 2px 2px 2px 2px #000;
 }
-.pop-img{
+
+.pop-img {
 	background-image: url('/assets/frontend/img/sale.jpeg');
 	background-position: center;
 	background-size: cover;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
+}
+
+.text-ellipsis--2 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/* Addition lines for 2 line or multiline ellipsis */
+	display: -webkit-box !important;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	white-space: normal;
 }
