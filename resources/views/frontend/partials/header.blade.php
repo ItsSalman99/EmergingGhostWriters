@@ -9,13 +9,6 @@
                         <span><a href="tel:78498798789">78498798789</a></span>
                     </div>
                     <div class="ht-right f-right">
-                        {{-- <div class="language-list">
-                            <select name="subject">
-                                <option data-display="English">English</option>
-                                <option value="1">Bangla</option>
-                                <option value="2">Arabic</option>
-                            </select>
-                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -50,12 +43,11 @@
                                 <nav class="main-menu">
                                     <ul>
                                         <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                        <li><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="header-btn">
-                                <a class="thm-btn thm-btn-3" onclick="OpenPopUp()">Get A Quote</a>
+                                <a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a>
                             </div>
                         </div>
                     </div>

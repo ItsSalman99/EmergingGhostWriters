@@ -37,6 +37,65 @@ class HomeController extends Controller
         ]);
     }
 
+    public function book_writing()
+    {
+        return view('frontend.services.book-writing');
+    }
+    public function book_publishing()
+    {
+        return view('frontend.services.book-publishing');
+    }
+    public function book_marketing()
+    {
+        return view('frontend.services.book-marketing');
+    }
+    public function book_formating()
+    {
+        return view('frontend.services.book-formating');
+    }
+    public function video_booktrailers()
+    {
+        return view('frontend.services.video_book');
+    }
+    public function social_mediamarketing()
+    {
+        return view('frontend.services.social-media');
+    }
+
+    public function InteractiveEbooks()
+    {
+        return view('frontend.services.interactive-ebook');
+    }
+
+    public function CreativeWriting()
+    {
+        return view('frontend.services.creative-writing');
+    }
+    public function PressReleaseWriting()
+    {
+        return view('frontend.services.pressrelease');
+    }
+    public function Editing_ProofReading()
+    {
+        return view('frontend.services.editingproofreading');
+    }
+    public function BookCoverDesign()
+    {
+        return view('frontend.services.book-cover');
+    }
+    public function AmazonMarketing()
+    {
+        return view('frontend.services.amazon-marketing');
+    }
+    public function SeoWriting()
+    {
+        return view('frontend.services.seo-writing');
+    }
+    public function AudioBooks()
+    {
+        return view('frontend.services.audio-books');
+    }
+
     public function portfolio()
     {
         return view('frontend.portfolio');

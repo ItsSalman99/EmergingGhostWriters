@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="port-content">
                                     <div class="port-icon">
-                                        <a href="{{ route('service', ['id' => $service->id]) }}" class="bg-dark">
+                                        <a href="{{ route(preg_replace("/\s+/", "", $service->name)) }}" class="bg-dark">
                                             <i class="ti-arrow-right text-white"></i>
                                         </a>
                                     </div>
