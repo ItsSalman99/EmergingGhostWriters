@@ -5,15 +5,18 @@ namespace App\Http\Controllers;
 use App\Models\Country;
 use App\Models\GhostWritingServices;
 use App\Models\Service;
-use Facade\FlareClient\View;
-use Illuminate\Http\Request;
+use LSCache;
 
 class HomeController extends Controller
 {
+    public function __construct() {
+        LSCache::purge('*', $stale=false);
+    }
+
     public function index()
     {
         $countries = Country::cursor();
-        
+
         return view('frontend.index')->with([
             'countries' => $countries
         ]);
@@ -101,15 +104,6 @@ class HomeController extends Controller
         return view('frontend.portfolio');
     }
 
-    public function service($id)
-    {
-        $service = Service::where('id', $id)->first();
-
-        return view('frontend.service')->with([
-            'service' => $service
-        ]);
-    }
-
     public function ghostWritingServices()
     {
         $ghostwritingservices = GhostWritingServices::paginate(6);
@@ -117,6 +111,11 @@ class HomeController extends Controller
         return view('frontend.ghostwriting-services')->with([
             'ghostwritingservices' => $ghostwritingservices
         ]);
+    }
+
+    public function fiction()
+    {
+        return view('frontend.ghostwriting.fiction');
     }
 
     public function ghostWritingService($id)
@@ -127,5 +126,4 @@ class HomeController extends Controller
             'ghostwritingservice' => $ghostwritingservice
         ]);
     }
-
 }

@@ -24,7 +24,16 @@ Route::get('/amazon-marketing', [HomeController::class, 'AmazonMarketing'])->nam
 Route::get('/seo-writing', [HomeController::class, 'SeoWriting'])->name('SEOWriting');
 Route::get('/audio-books', [HomeController::class, 'AudioBooks'])->name('AudioBooks');
 
-Route::get('/service/{id}', [HomeController::class, 'service'])->name('service');
+// //GhostWritings
+// Route::get('/fiction', [HomeController::class, 'fiction'])->name('Fiction');
+// Route::get('/beauty-ghost-writing', [HomeController::class, 'fiction'])->name('BeautyGhostWriting');
+// Route::get('/business-ghost-writing', [HomeController::class, 'fiction'])->name('BusinessGhostWriting');
+// Route::get('/fantasy-ghost-writing', [HomeController::class, 'fiction'])->name('FantasyGhostWriting');
+// Route::get('/medical-ghost-writing', [HomeController::class, 'fiction'])->name('MedicalGhostWriting');
+// Route::get('/screenplay-ghost-writing', [HomeController::class, 'fiction'])->name('ScreenPlayGhostWriting');
+// Route::get('/nonfiction-ghost-writing', [HomeController::class, 'fiction'])->name('NonFictionGhostWriting');
+// Route::get('/blog-ghost-writing', [HomeController::class, 'fiction'])->name('BlogGhostWriting');
+
 Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 Route::get('/ghostwriting-services', [HomeController::class, 'ghostWritingServices'])->name('ghostwriting-services');

@@ -16,6 +16,7 @@ class CreateGhostWritingServicesTable extends Migration
         Schema::create('ghost_writing_services', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

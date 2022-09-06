@@ -42,17 +42,13 @@
                                 </div>
                                 <div class="port-content">
                                     <div class="port-icon">
-                                        <a href="{{ route('ghostwriting-service', ['id' => $service->id]) }}" class="bg-dark">
+                                        <a href="{{ route(preg_replace("/\s+/", "", $service->name)) }}" class="bg-dark">
                                             <i class="ti-arrow-right text-white"></i>
                                         </a>
                                     </div>
                                     <div class="port-text">
                                         <h4><a href="#">{{ $service->name }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid
-                                            perspiciatis
-                                            magnam explicabo ea, nulla officia reiciendis facere dolorum ad porro quasi est
-                                            neque voluptatum? Eligendi ratione fugit optio illo.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <p class="text-ellipsis--2">{{ $service->description }}</p>
                                     </div>
                                 </div>
                             </div>
