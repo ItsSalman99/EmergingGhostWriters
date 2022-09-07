@@ -30,56 +30,53 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="td-bottom-content">
-                            <h3 class="title">About Beauty GhostWriting Service</h3>
+                            <h3 class="title">The Optimum Beauty Ghostwriter at your service</h3>
                             <div class="text mb-45">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, beatae illum eligendi
-                                    doloremque molestiae rem voluptatibus blanditiis odit voluptatum temporibus ipsum
-                                    molestias minima nobis omnis in facilis eius ut unde!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea quia nihil voluptatem iste
-                                    nostrum similique aperiam sapiente enim itaque sint magni eveniet animi, officiis rerum
-                                    praesentium maxime ipsa harum.
+                                    An extensive range of subtopics falls under the umbrella of the overarching issue of
+                                    beauty. The beauty writers at Emerging Ghostwriter have in-depth knowledge about the
+                                    makeup and efficacy of cosmetics, and they offer advice based on their expertise.
                                 </p>
-                                <p>He is a services industry veteran with a diversified wealth of expertise that includes
-                                    worldwide operations, delivery, process improvements, mergers and acquisitions, and
-                                    integration, as well as sales and business development.</p>
+                                <p>
+                                    We are aware of the difficulties and demands of rigorous study when writing about themes
+                                    related to beauty. Our team of expert beauty ghostwriters provides readers with in-depth
+                                    analysis and exciting content based on years of experience in the field. Our beauty
+                                    ghostwriters rely on factual information, which we only release after careful
+                                    examination.
+                                </p>
                             </div>
                             <div class="td-list-wrapper mb-60">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Proficiency in English writing skills</li>
+                                            <li><i class="ti-check"></i>Up-to-date and well-researched beauty content</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Aware of referencing and ghostwriting</li>
+                                            <li><i class="ti-check"></i>Deadline specific</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Fashion Trends</li>
+                                            <li><i class="ti-check"></i>Organic Beauty Tips</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="text mb-30">
-                                <p>Prior to joining Ozix, he spent 20+ years at Inmosys, where he held a wide range of
-                                    global leadership roles, from services to products, and across operations and sales.
-                                    Most recently, he was SVP & Global Head of the Manufacturing business, as well as a
-                                    board member of their software subsidiary. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. He is a frequent speaker on the topics of
-                                    global innovation and digital disruption. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. Since joining Ozix in 2009, he has helped turn
-                                    the company from a group of bright technology minds working with startups into a global
-                                    Digital Product Engineering Services leader helping Fortune 500 companies on their
-                                    innovation agenda. In Chriss’s time as President and CEO of company, the company has
-                                    experienced explosive.</p>
+                                <p>
+                                    Will you soon introduce a new beauty product? It is a comparison of ten accessories that
+                                    help with beauty. It is challenging to stay knowledgeable, given the growth of this
+                                    business and the monthly introduction of new items. But not for our ghostwriters for
+                                    beauty. Emerging Ghostwriter Beauty bloggers and beauty magazine writers that have
+                                    extensive knowledge in hair, makeup, skincare, and fashion make up the ghostwriting
+                                    team. Everything from skincare products to hairstyles to clothing is different. Almost
+                                    everything is grouped under the phrase beauty. Obtain access to exquisite writing!
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -91,15 +88,18 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <h2>Beauty GhostWriting Services</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Various <br> Specialized Genres</a></h3>
+                                <h3><a href="team-details.html">Fashion Sensations</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Without including fashion trends in the list, beauty is nebulous. Our skilled beauty
+                                    ghostwriters at Emerging Ghostwriter thoroughly understand current fashion trends.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -107,9 +107,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Client <br> Communication</a></h3>
+                                <h3><a href="team-details.html">Organic Beauty Tips</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Hire a ghostwriter at Emerging Ghostwriter immediately to learn the best organic beauty
+                                    secrets. Beauty ghostwriters have extensively trained in organic remedies to preserve
+                                    and enhance attractiveness.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -117,9 +121,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Personalized <br> Service</a></h3>
+                                <h3><a href="team-details.html">Makeup Tips</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Every female age group uses makeup frequently. It has somehow evolved into an essential
+                                    requirement. The affordable beauty copywriting services emerging Ghostwriter offers to
+                                    include knowledge of current cosmetics techniques and trends.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -127,9 +135,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Book <br> Marketing</a></h3>
+                                <h3><a href="team-details.html">Genuine Topics</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    We are aware of the importance of challenging subjects and occasionally complex
+                                    problems.
+                                </p>
                                 <br>
                             </div>
                         </div>

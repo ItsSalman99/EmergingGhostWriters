@@ -29,12 +29,8 @@
                     <input type="email" name="email" placeholder="Your Email?" class="form-control" id="">
                 </div>
                 <div class="my-2">
-                    <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control"
-                        id="">
-                </div>
-                <div class="my-2">
-                    <div class="subject-filter">
-                        <select name="country" class="form-control" id="">
+                    <div class="subject-filter ">
+                        <select name="country" class="form-control" required id="">
                             <option value="">--- Select Region ---</option>
                             @foreach ($countries as $country)
                                 <option value="{{ $country->id }}">
@@ -45,6 +41,15 @@
                     </div>
                 </div>
                 <div class="my-2">
+                    <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control"
+                        id="">
+                </div>
+                <div class="my-2">
+                    <div class="contact-input">
+                        <textarea name="message" cols="30" rows="10" class="form-control" style="resize: none;" placeholder="Work details"></textarea>
+                    </div>
+                </div>
+                <div class="my-2">
                     <button class="thm-btn thm-btn-2 bg-primary text-white" style="width: 100%!important">
                         Send
                     </button>
@@ -52,4 +57,4 @@
             </form>
         </div>
     </div>
-</div>
+</div>  

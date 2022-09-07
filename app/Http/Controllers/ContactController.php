@@ -20,13 +20,15 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
+  
         Client::create([
             'name' => $request->name,
-            'email' => $request->name,
+            'email' => $request->email,
             'profession' => $request->profession,
-            'contact' => $request->contact,
-            'contact_id' => $request->country_id,
+            'contact' => $request->cnumber,
+            'country_id' => $request->country,
+            'message' => $request->message
         ]);
 
         Alert::success("Request Send Successfully!", "We have recieved your request, our expert will contact you soon!");

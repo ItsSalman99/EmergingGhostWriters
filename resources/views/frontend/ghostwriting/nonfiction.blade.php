@@ -33,53 +33,49 @@
                             <h3 class="title">About Non-Fiction GhostWriting Service</h3>
                             <div class="text mb-45">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, beatae illum eligendi
-                                    doloremque molestiae rem voluptatibus blanditiis odit voluptatum temporibus ipsum
-                                    molestias minima nobis omnis in facilis eius ut unde!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea quia nihil voluptatem iste
-                                    nostrum similique aperiam sapiente enim itaque sint magni eveniet animi, officiis rerum
-                                    praesentium maxime ipsa harum.
+                                    Like excellent research, nonfiction writing is based on true accounts of actual people,
+                                    places, and events. The Emerging Ghostwriter staff is led by bright individuals who are
+                                    authorities in their esteemed field. Because our authors are experts in the area, our
+                                    clients would always receive high-end nonfiction stories.
                                 </p>
-                                <p>He is a services industry veteran with a diversified wealth of expertise that includes
-                                    worldwide operations, delivery, process improvements, mergers and acquisitions, and
-                                    integration, as well as sales and business development.</p>
+                                <p>
+                                    Their expertise helps you while writing a historical fiction book, a memoir, a how-to
+                                    manual, or an autobiography.We listen to our client's ideas and assist them in creating
+                                    a masterpiece. Our ghostwriters will expertly handle each stage of the process.
+                                </p>
                             </div>
                             <div class="td-list-wrapper mb-60">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Proficiency in English writing skills</li>
+                                            <li><i class="ti-check"></i>Up-to-date and well-researched content</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Aware of referencing and ghostwriting</li>
+                                            <li><i class="ti-check"></i>Deadline specific</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Competitive Advantage</li>
+                                            <li><i class="ti-check"></i>Award-Winning nonfiction writers</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="text mb-30">
-                                <p>Prior to joining Ozix, he spent 20+ years at Inmosys, where he held a wide range of
-                                    global leadership roles, from services to products, and across operations and sales.
-                                    Most recently, he was SVP & Global Head of the Manufacturing business, as well as a
-                                    board member of their software subsidiary. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. He is a frequent speaker on the topics of
-                                    global innovation and digital disruption. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. Since joining Ozix in 2009, he has helped turn
-                                    the company from a group of bright technology minds working with startups into a global
-                                    Digital Product Engineering Services leader helping Fortune 500 companies on their
-                                    innovation agenda. In Chriss’s time as President and CEO of company, the company has
-                                    experienced explosive.</p>
+                                <p>
+                                    For more than years, we have offered nonfiction copywriting services. As a result, our
+                                    writers are seasoned professionals. We fully admit that our ghostwriting services are
+                                    remarkable and confidently make this claim. Thanks to our nonfiction ghostwriter, you
+                                    won't need to stress about it. Your core idea is all that our ghostwriters need. We'll
+                                    make it into a book that can be published. Thanks to qualities like active deep
+                                    listening, note-taking, and an exceptional writing style, you will feel at ease working
+                                    with us.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -91,15 +87,19 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <h2>Non-Fiction Services</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Various <br> Specialized Genres</a></h3>
+                                <h3><a href="team-details.html">Premium Storytelling</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Our skilled nonfiction ghostwriters are professional at keeping readers engrossed in the
+                                    book. We are experts in crafting non-fictional content that engages readers emotionally
+                                    and introduces them to the characters and their inspiring tales.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -107,9 +107,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Client <br> Communication</a></h3>
+                                <h3><a href="team-details.html">Sub-Genres</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    A group of knowledgeable nonfiction ghostwriters with experience in various subgenres
+                                    may be found at Emerging Ghostwriter.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -117,9 +120,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Personalized <br> Service</a></h3>
+                                <h3><a href="team-details.html">Compelling Tone</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Do you have a brilliant concept for a narrative but are stuck on how to write it? You
+                                    are in the ideal location. The nonfiction authors at Emerging Ghostwriter have received
+                                    training in telling stories through persuasive writing.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -127,9 +134,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Book <br> Marketing</a></h3>
+                                <h3><a href="team-details.html">Promising Outcomes</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    At Emerging Ghostwriter, you can employ a qualified ghostwriter. To ensure the quickest
+                                    turnaround time without compromising the caliber of the information, we are only
+                                    concerned with the elements.
+                                </p>
                                 <br>
                             </div>
                         </div>

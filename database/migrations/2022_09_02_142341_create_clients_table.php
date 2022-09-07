@@ -21,6 +21,7 @@ class CreateClientsTable extends Migration
             $table->string('contact')->nullable();
             $table->unsignedBigInteger('country_id')->nullable();
             $table->foreign('country_id')->references('id')->on('countries')->onDelete('cascade');
+            $table->text('message')->nullable();
             $table->timestamps();
         });
     }

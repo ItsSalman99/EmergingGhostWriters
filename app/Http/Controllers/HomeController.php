@@ -117,13 +117,32 @@ class HomeController extends Controller
     {
         return view('frontend.ghostwriting.fiction');
     }
-
-    public function ghostWritingService($id)
+    public function beauty()
     {
-        $ghostwritingservice = GhostWritingServices::where('id', $id)->first();
-
-        return view('frontend.ghostwriting-service')->with([
-            'ghostwritingservice' => $ghostwritingservice
-        ]);
+        return view('frontend.ghostwriting.beauty');
+    }
+    public function business()
+    {
+        return view('frontend.ghostwriting.business');
+    }
+    public function fantasy()
+    {
+        return view('frontend.ghostwriting.fantasy');
+    }
+    public function medical()
+    {
+        return view('frontend.ghostwriting.medical');
+    }
+    public function screenplay()
+    {
+        return view('frontend.ghostwriting.screenplay');
+    }
+    public function nonfiction()
+    {
+        return view('frontend.ghostwriting.nonfiction');
+    }
+    public function blog()
+    {
+        return view('frontend.ghostwriting.blog');
     }
 }

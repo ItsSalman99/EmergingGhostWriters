@@ -30,56 +30,52 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="td-bottom-content">
-                            <h3 class="title">About Fiction</h3>
+                            <h3 class="title">Fiction Ghostwriting Services</h3>
                             <div class="text mb-45">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, beatae illum eligendi
-                                    doloremque molestiae rem voluptatibus blanditiis odit voluptatum temporibus ipsum
-                                    molestias minima nobis omnis in facilis eius ut unde!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea quia nihil voluptatem iste
-                                    nostrum similique aperiam sapiente enim itaque sint magni eveniet animi, officiis rerum
-                                    praesentium maxime ipsa harum.
+                                    Our fiction ghostwriters will cover all the incidents and components of a comprehensive
+                                    plot and assist you in writing an engaging book, whether you want to polish your
+                                    manuscript or imaginatively convey your ideas and imagination into the correct words.
                                 </p>
-                                <p>He is a services industry veteran with a diversified wealth of expertise that includes
-                                    worldwide operations, delivery, process improvements, mergers and acquisitions, and
-                                    integration, as well as sales and business development.</p>
+                                <p>
+                                    Any genre of a novel, novella, or short story can be considered fiction writing. To
+                                    create a fluid and compelling book, the key to making a fiction narrative stand out is
+                                    to incorporate all the necessary components of a novel, such as a storyline, characters,
+                                    setting, and topic. Our fiction ghostwriters for hire have a talent for smoothly
+                                    incorporating the narrative and characters, leaving the reader wanting more.
+                                </p>
                             </div>
                             <div class="td-list-wrapper mb-60">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Best Customer Service</li>
+                                            <li><i class="ti-check"></i>Your Privacy Is Guaranteed</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Affordable Ghostwriters</li>
+                                            <li><i class="ti-check"></i>Drama/romance</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Historical fiction</li>
+                                            <li><i class="ti-check"></i>Science fiction</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="text mb-30">
-                                <p>Prior to joining Ozix, he spent 20+ years at Inmosys, where he held a wide range of
-                                    global leadership roles, from services to products, and across operations and sales.
-                                    Most recently, he was SVP & Global Head of the Manufacturing business, as well as a
-                                    board member of their software subsidiary. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. He is a frequent speaker on the topics of
-                                    global innovation and digital disruption. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. Since joining Ozix in 2009, he has helped turn
-                                    the company from a group of bright technology minds working with startups into a global
-                                    Digital Product Engineering Services leader helping Fortune 500 companies on their
-                                    innovation agenda. In Chriss’s time as President and CEO of company, the company has
-                                    experienced explosive.</p>
+                                <p>
+                                    Our fiction writers collaborate directly with you, fully grasp your idea, and get
+                                    intimately familiar with your story. We offer creative assistance to finish your papers
+                                    and successfully incorporate your input. We work closely with you throughout the writing
+                                    process and approach your project as our own, keeping your objectives and goals in mind.
+                                    No matter the genre, we go above and above to write a compelling story that hooks your
+                                    audience.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -90,16 +86,17 @@
         <section class="team-area pt-120 pb-90">
             <div class="container">
                 <div class="section-title-2 text-center">
-                    <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <span>Fiction Ghostwriting Services</span>
+                    <h2></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Various <br> Specialized Genres</a></h3>
+                                <h3><a href="team-details.html">Romance Fiction <br> Ghostwriting Services</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>romance fiction is the way to go if you're seeking publications that appeal to a broad
+                                    readership.</p>
                                 <br>
                             </div>
                         </div>
@@ -107,9 +104,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Client <br> Communication</a></h3>
+                                <h3><a href="team-details.html">Action-Adventure <br> Ghostwriting Services</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>This genre can be seen as being on the other extreme from romanticism. While male readers
+                                    tend to read more action adventures, female readers prefer the romance category.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -117,9 +116,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Personalized <br> Service</a></h3>
+                                <h3><a href="team-details.html">Science Fiction <br> Ghostwriting Services</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Science fiction takes place in a cosmos light year away from ours. The books are either
+                                    set in the future or occasionally in the past.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -127,9 +129,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Book <br> Marketing</a></h3>
+                                <h3><a href="team-details.html">Fantasy Novel <br> Ghostwriting Services</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Most widely read books are in the fantasy genre, whether you look at the recent past or
+                                    the present. Writing a successful fantasy book is being as descriptive as possible.
+                                </p>
                                 <br>
                             </div>
                         </div>

@@ -5396,3 +5396,18 @@ video {
 	-webkit-box-orient: vertical;
 	white-space: normal;
 }
+
+@media only screen and (max-width: 600px) {
+	.pop-up{
+		top: 5%;
+	}
+	.pop-up input{
+		font-size: 14px;
+	}
+	.pop-up input::placeholder{
+		font-size: 12px;
+	}
+	.pop-up textarea{
+		font-size: 14px;
+	}
+  }

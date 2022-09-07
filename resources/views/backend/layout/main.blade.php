@@ -50,7 +50,14 @@
 
     @include('backend.partials.nav')
 
-    @yield('content')
+    <section class="main_content dashboard_part large_header_bg">
+
+        @include('backend.partials.header')
+    
+        @yield('content')
+    
+    </section>
+
 
     <div id="back-top" style="display: none;">
         <a title="Go to Top" href="#">

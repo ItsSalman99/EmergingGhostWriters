@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <div class="c-btn">
-                                <a href="#">Sent Email <i class="ti-arrow-right "></i></a>
+                                <a>Sent Email <i class="ti-arrow-right "></i></a>
                             </div>
                         </div>
                     </div>

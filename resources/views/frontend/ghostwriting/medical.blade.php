@@ -30,56 +30,52 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="td-bottom-content">
-                            <h3 class="title">About Medical GhostWriting Service</h3>
+                            <h3 class="title">About Medical Ghostwriting Services</h3>
                             <div class="text mb-45">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, beatae illum eligendi
-                                    doloremque molestiae rem voluptatibus blanditiis odit voluptatum temporibus ipsum
-                                    molestias minima nobis omnis in facilis eius ut unde!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea quia nihil voluptatem iste
-                                    nostrum similique aperiam sapiente enim itaque sint magni eveniet animi, officiis rerum
-                                    praesentium maxime ipsa harum.
+                                    We have an exceedingly skilled team of physicians and scientists with Ph.D.s who have a
+                                    wealth of knowledge in writing scientifically. We offer writing for research papers,
+                                    books, review articles, and other publications as part of our medical ghostwriting
+                                    service.
                                 </p>
-                                <p>He is a services industry veteran with a diversified wealth of expertise that includes
-                                    worldwide operations, delivery, process improvements, mergers and acquisitions, and
-                                    integration, as well as sales and business development.</p>
+                                <p>
+                                    Many doctors, surgeons, and other medical professionals must keep themselves and the
+                                    public informed about the newest scientific advancements and data on medications and
+                                    illnesses. Although their responsibilities and titles differ, they confront difficulties
+                                    managing the patient load, in general, practice while simultaneously taking part in
+                                    medical research.
+                                </p>
                             </div>
                             <div class="td-list-wrapper mb-60">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Create study designs for medical research</li>
+                                            <li><i class="ti-check"></i>Conduct statistical analysis</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Create lecture notes</li>
+                                            <li><i class="ti-check"></i>Literature reviews and abstracts; </li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Assemble them following the requirements of
+                                                international publications</li>
+                                            <li><i class="ti-check"></i>Timely client interaction</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="text mb-30">
-                                <p>Prior to joining Ozix, he spent 20+ years at Inmosys, where he held a wide range of
-                                    global leadership roles, from services to products, and across operations and sales.
-                                    Most recently, he was SVP & Global Head of the Manufacturing business, as well as a
-                                    board member of their software subsidiary. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. He is a frequent speaker on the topics of
-                                    global innovation and digital disruption. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. Since joining Ozix in 2009, he has helped turn
-                                    the company from a group of bright technology minds working with startups into a global
-                                    Digital Product Engineering Services leader helping Fortune 500 companies on their
-                                    innovation agenda. In Chriss’s time as President and CEO of company, the company has
-                                    experienced explosive.</p>
+                                <p>
+                                    In order to fill the gap and produce a wide range of current scientific articles with
+                                    the most recent medical research and cover various topics and areas linked to the field,
+                                    we offer expert medical ghostwriting services. Our medical ghostwriting service adheres
+                                    to moral principles and provides original scripts.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -91,15 +87,18 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <h2>Medical GhostWriting Service</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Various <br> Specialized Genres</a></h3>
+                                <h3><a href="team-details.html">Topic Awareness</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Our team of medical ghostwriters is an expert in medical terminology. As a medical
+                                    writing service, we have decades of experience.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -107,9 +106,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Client <br> Communication</a></h3>
+                                <h3><a href="team-details.html">Speedy Delivery</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    The Emerging Ghostwriter is renowned for its prompt delivery and deadline notifications.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -117,9 +118,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Personalized <br> Service</a></h3>
+                                <h3><a href="team-details.html">Premium Quality Papers</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Emerging Ghostwriter strives to give the best medical-related papers to meet our
+                                    client's expectations.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -127,9 +131,9 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Book <br> Marketing</a></h3>
+                                <h3><a href="team-details.html">Infinite Modifications</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Do you need to change your script's course to account for the chapter or character development? Not to worry.</p>
                                 <br>
                             </div>
                         </div>

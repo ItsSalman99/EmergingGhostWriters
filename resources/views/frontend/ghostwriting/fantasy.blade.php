@@ -91,7 +91,7 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <h2>Fantasy GhostWriting Service</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">

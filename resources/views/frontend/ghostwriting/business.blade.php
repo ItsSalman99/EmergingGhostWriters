@@ -30,56 +30,49 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="td-bottom-content">
-                            <h3 class="title">About Business GhostWriting Service</h3>
+                            <h3 class="title">Your Abundant Resource of Business Ghostwriter</h3>
                             <div class="text mb-45">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, beatae illum eligendi
-                                    doloremque molestiae rem voluptatibus blanditiis odit voluptatum temporibus ipsum
-                                    molestias minima nobis omnis in facilis eius ut unde!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea quia nihil voluptatem iste
-                                    nostrum similique aperiam sapiente enim itaque sint magni eveniet animi, officiis rerum
-                                    praesentium maxime ipsa harum.
+                                    You've come to the faultless place if you're a business executive looking to publish
+                                    your business book. A professional business ghostwriter on our team has the skills and
+                                    experience necessary to turn your rough book proposal into a best-selling business book.
+                                    With the help of our business book authors, writing a book has never been simpler.
                                 </p>
-                                <p>He is a services industry veteran with a diversified wealth of expertise that includes
-                                    worldwide operations, delivery, process improvements, mergers and acquisitions, and
-                                    integration, as well as sales and business development.</p>
+                                <p>
+                                    Do you desire your company book to be noticed? Our skilled business copywriter selects
+                                    the appropriate target market for your book and works efficiently to produce results.
+                                </p>
                             </div>
                             <div class="td-list-wrapper mb-60">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Bestselling Business Ghostwriters</li>
+                                            <li><i class="ti-check"></i>Low Time Commitment</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>Personalized Service</li>
+                                            <li><i class="ti-check"></i>Work with Publishing Execs</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
                                         <ul class="td-list mb-20">
-                                            <li><i class="ti-check"></i> Dedicated team member</li>
-                                            <li><i class="ti-check"></i> Active with other team mates</li>
+                                            <li><i class="ti-check"></i>We're Your Publishing Sherpa</li>
+                                            <li><i class="ti-check"></i>Guaranteed Publication</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="text mb-30">
-                                <p>Prior to joining Ozix, he spent 20+ years at Inmosys, where he held a wide range of
-                                    global leadership roles, from services to products, and across operations and sales.
-                                    Most recently, he was SVP & Global Head of the Manufacturing business, as well as a
-                                    board member of their software subsidiary. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. He is a frequent speaker on the topics of
-                                    global innovation and digital disruption. He is also an avid cook and history buff. You
-                                    can find him dining late at night with the chefs of the hotels where he stays during his
-                                    travels, or reading in his home library. Since joining Ozix in 2009, he has helped turn
-                                    the company from a group of bright technology minds working with startups into a global
-                                    Digital Product Engineering Services leader helping Fortune 500 companies on their
-                                    innovation agenda. In Chriss’s time as President and CEO of company, the company has
-                                    experienced explosive.</p>
+                                <p>
+                                    It's difficult to survive in this cutthroat market. Still, our extensive experience in
+                                    ghostwriting will offer you the credibility you need not only to endure but also to
+                                    outperform other company leaders in your field. Some people might find it difficult to
+                                    turn their scribbled notes into business books that people value, but our writers are
+                                    skilled at gracefully handling the entire ghostwriting process.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -91,15 +84,18 @@
             <div class="container">
                 <div class="section-title-2 text-center">
                     <span>Emerging Ghost Writers</span>
-                    <h2>{{ $service->name }}</h2>
+                    <h2>Business Ghost Writing</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Various <br> Specialized Genres</a></h3>
+                                <h3><a href="team-details.html">Easygoing Approach</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    The main goal of Emerging Ghostwriter, the best ghostwriter service for your company, is
+                                    a flexible strategy.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -107,9 +103,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Client <br> Communication</a></h3>
+                                <h3><a href="team-details.html">Detail focused</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    The organization that emphasizes the specifics and offers the quickest return times is
+                                    Emerging Ghostwriter.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -117,9 +116,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Personalized <br> Service</a></h3>
+                                <h3><a href="team-details.html">Success Benchmark</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    We consider things like if a client is a business specialist or a novice or if they
+                                    enjoy creating content. A lucrative venture is one of the best aspects of starting a
+                                    ghostwriter business.
+                                </p>
                                 <br>
                             </div>
                         </div>
@@ -127,9 +130,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-single text-center mb-30">
                             <div class="team-text mb-35">
-                                <h3><a href="team-details.html">Book <br> Marketing</a></h3>
+                                <h3><a href="team-details.html">Competent Authors</a></h3>
                                 <hr>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>
+                                    All our great in-house writers have in common is their unwavering passion for the
+                                    written word.
+                                </p>
                                 <br>
                             </div>
                         </div>

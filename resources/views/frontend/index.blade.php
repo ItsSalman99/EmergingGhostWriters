@@ -23,8 +23,8 @@
                                 increasing productivity with our content.
                             </p>
                             <div class="banner-btn">
-                                <a class="thm-btn thm-btn-2" href="#">Chat With US</a>
-                                <a class="thm-btn border-btn" href="#">Get Free Consultation</a>
+                                <a class="thm-btn thm-btn-2" href="javascript:void(Tawk_API.toggle())">Chat With US</a>
+                                <a class="thm-btn border-btn" href="{{ route('contact') }}">Get Free Consultation</a>
                             </div>
                         </div>
                     </div>

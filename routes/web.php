@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DashBoardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
@@ -25,24 +28,23 @@ Route::get('/seo-writing', [HomeController::class, 'SeoWriting'])->name('SEOWrit
 Route::get('/audio-books', [HomeController::class, 'AudioBooks'])->name('AudioBooks');
 
 // //GhostWritings
-// Route::get('/fiction', [HomeController::class, 'fiction'])->name('Fiction');
-// Route::get('/beauty-ghost-writing', [HomeController::class, 'fiction'])->name('BeautyGhostWriting');
-// Route::get('/business-ghost-writing', [HomeController::class, 'fiction'])->name('BusinessGhostWriting');
-// Route::get('/fantasy-ghost-writing', [HomeController::class, 'fiction'])->name('FantasyGhostWriting');
-// Route::get('/medical-ghost-writing', [HomeController::class, 'fiction'])->name('MedicalGhostWriting');
-// Route::get('/screenplay-ghost-writing', [HomeController::class, 'fiction'])->name('ScreenPlayGhostWriting');
-// Route::get('/nonfiction-ghost-writing', [HomeController::class, 'fiction'])->name('NonFictionGhostWriting');
-// Route::get('/blog-ghost-writing', [HomeController::class, 'fiction'])->name('BlogGhostWriting');
+Route::get('/fiction', [HomeController::class, 'fiction'])->name('Fiction');
+Route::get('/beauty-ghost-writing', [HomeController::class, 'beauty'])->name('BeautyGhostWriting');
+Route::get('/business-ghost-writing', [HomeController::class, 'business'])->name('BusinessGhostWriting');
+Route::get('/fantasy-ghost-writing', [HomeController::class, 'fantasy'])->name('FantasyGhostWriting');
+Route::get('/medical-ghost-writing', [HomeController::class, 'medical'])->name('MedicalGhostWriting');
+Route::get('/screenplay-ghost-writing', [HomeController::class, 'screenplay'])->name('ScreenPlayGhostWriting');
+Route::get('/nonfiction-ghost-writing', [HomeController::class, 'nonfiction'])->name('NonFictionGhostWriting');
+Route::get('/blog-ghost-writing', [HomeController::class, 'blog'])->name('BlogGhostWriting');
 
 Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 Route::get('/ghostwriting-services', [HomeController::class, 'ghostWritingServices'])->name('ghostwriting-services');
-Route::get('/ghostwriting-services/{id}', [HomeController::class, 'ghostWritingService'])->name('ghostwriting-service');
 
 Route::prefix('admin')->middleware(['web', 'auth'])->group(function () {
-    Route::get('/dashboard', function (){
-        return view('backend.index');
-    });
+    Route::get('/dashboard', [DashBoardController::class, 'index'])->name('dashboard');
+    Route::get('regions', [RegionController::class, 'index'])->name('regions.index');
+    Route::get('clients', [ClientController::class, 'index'])->name('clients.index');
 });
 
 

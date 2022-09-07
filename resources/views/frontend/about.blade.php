@@ -300,7 +300,7 @@
                                 <img src="{{ asset('assets/frontend/img/team/team-01.png') }}" alt="">
                             </div>
                             <div class="team-text mb-35" style="padding-bottom: 20px;">
-                                <h3><a href="team-details.html">Miranda H. Halim</a></h3>
+                                <h3><a>Miranda H. Halim</a></h3>
                             </div>
                         </div>
                     </div>
@@ -310,7 +310,7 @@
                                 <img src="{{ asset('assets/frontend/img/team/team-02.png') }}" alt="">
                             </div>
                             <div class="team-text mb-35" style="padding-bottom: 20px;">
-                                <h3><a href="#">Justin Carr</a></h3>
+                                <h3><a>Justin Carr</a></h3>
                             </div>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                                 <img src="{{ asset('assets/frontend/img/team/team-03.png') }}" alt="">
                             </div>
                             <div class="team-text mb-35" style="padding-bottom: 20px;">
-                                <h3><a href="#">Amanda Rees</a></h3>
+                                <h3><a>Amanda Rees</a></h3>
                             </div>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
                                 <img src="{{ asset('assets/frontend/img/team/team-04.png') }}" alt="">
                             </div>
                             <div class="team-text mb-35" style="padding-bottom: 20px;">
-                                <h3><a href="#">Ehsan Ahmed</a></h3>
+                                <h3><a>Ehsan Ahmed</a></h3>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,11 @@
     <title>{{ env('APP_NAME') }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='cache-control' content='no-cache'>
 
+    <meta http-equiv='expires' content='0'>
+
+    <meta http-equiv='pragma' content='no-cache'>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.png in the root directory -->
 
@@ -50,42 +54,13 @@
         </div>
         <!-- side-mobile-menu start -->
         <nav class="side-mobile-menu">
-            <div class="header-mobile-search">
-                <form role="search" method="get" action="#">
-                    <input type="text" placeholder="Search Keywords">
-                    <button type="submit"><i class="ti-search"></i></button>
-                </form>
-            </div>
             <ul id="mobile-menu-active">
-                <li class="dropdown"><a href="index.html">Home</a>
-                    <ul class="sub-menu">
-                        <li><a class="active" href="index.html">Home App Landing</a></li>
-                        <li><a href="index-2.html">Home Agency</a></li>
-                        <li><a href="index-3.html">Home Sass Business</a></li>
-                    </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown"><a href="#">Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="team-details.html">Team Details</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="news-details.html">News Details</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </li>
-                <li><a href="services.html">Services</a></li>
-                <li class="dropdown"><a href="news.html">News</a>
-                    <ul class="sub-menu">
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="news-details.html">News Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="{{ route('about-us') }}">About</a></li>
+                <li><a href="{{ route('services') }}">Services</a></li>
+                <li><a href="{{ route('ghostwriting-services') }}">GhostWriting</a></li>
+                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                <li><a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a></li>
             </ul>
         </nav>
         <!-- side-mobile-menu end -->
@@ -113,6 +88,21 @@
     <script src="{{ asset('assets/frontend/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
     @include('sweetalert::alert')
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6318e2b854f06e12d893590d/1gccjb9uv';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 </body>
 
