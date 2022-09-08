@@ -29,8 +29,9 @@
         <section class="gmaps-area">
             <div class="contact-map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.254272231177!2d90.3654215!3d23.7985508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592852423971!5m2!1sen!2sbd"
-                    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.1074320663256!2d-106.33132238458957!3d42.849464679157094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8760bca480ca44a5%3A0xf5d42b5e551b1978!2s312%20W%202nd%20St%2C%20Casper%2C%20WY%2082601%2C%20USA!5e0!3m2!1sen!2s!4v1662646864908!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <!-- map end -->
@@ -71,12 +72,9 @@
                                 </div>
                                 <div class="c-text">
                                     <h4>Email Address</h4>
-                                    <p>info@webmail.com</p>
-                                    <p>jobs@webexample.com</p>
+                                    <p>info@emergingghostwriters.com</p>
+                                    <br>
                                 </div>
-                            </div>
-                            <div class="c-btn">
-                                <a>Sent Email <i class="ti-arrow-right "></i></a>
                             </div>
                         </div>
                     </div>
@@ -88,12 +86,9 @@
                                 </div>
                                 <div class="c-text">
                                     <h4>Phone Number</h4>
-                                    <p>+61 3 8376 6284 9</p>
-                                    <p>+61 3 8376 6284</p>
+                                    <p>+1 361 273 1595</p>
+                                    <br>
                                 </div>
-                            </div>
-                            <div class="c-btn">
-                                <a href="#">Call Now <i class="ti-arrow-right "></i></a>
                             </div>
                         </div>
                     </div>
@@ -105,11 +100,8 @@
                                 </div>
                                 <div class="c-text">
                                     <h4>Office Address</h4>
-                                    <p>14/A, New Castle Tower New York, US</p>
+                                    <p>312 W 2nd St, Casper, WY 82601, USA</p>
                                 </div>
-                            </div>
-                            <div class="c-btn">
-                                <a href="#">Open Map <i class="ti-arrow-right "></i></a>
                             </div>
                         </div>
                     </div>

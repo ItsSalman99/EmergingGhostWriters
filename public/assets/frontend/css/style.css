@@ -301,8 +301,8 @@ select {
 }
 
 .thm-btn-2 {
-	background-color: #fff;
-	color: #1b1b1b;
+	background-color: #b11116;
+	color: #fff;
 }
 
 .thm-btn-2:hover {
@@ -311,8 +311,8 @@ select {
 }
 
 .thm-btn-3 {
-	background-color: #dce8eb;
-	color: #221f1f;
+	background-color: #b11116;
+	color: #fff;
 }
 
 .thm-btn-3:hover {
@@ -343,12 +343,12 @@ select {
 
 /* scrollUp */
 #scrollUp {
-	background: #fff;
+	background: #b11116;
 	height: 45px;
 	width: 45px;
 	right: 20px;
 	bottom: 50px;
-	color: #1b2026;
+	color: #fff;
 	font-size: 20px;
 	text-align: center;
 	border-radius: 50%;
@@ -5398,16 +5398,19 @@ video {
 }
 
 @media only screen and (max-width: 600px) {
-	.pop-up{
+	.pop-up {
 		top: 5%;
 	}
-	.pop-up input{
+
+	.pop-up input {
 		font-size: 14px;
 	}
-	.pop-up input::placeholder{
+
+	.pop-up input::placeholder {
 		font-size: 12px;
 	}
-	.pop-up textarea{
+
+	.pop-up textarea {
 		font-size: 14px;
 	}
-  }
+}

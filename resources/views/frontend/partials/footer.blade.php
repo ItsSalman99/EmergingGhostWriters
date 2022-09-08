@@ -15,8 +15,10 @@
                             </div>
                             <div class="f-about-social">
                                 <h4 class="fa-title">Social Contact</h4>
-                                <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="http://instagram.com/emergingghostwriters" target="__blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="http://instagram.com/emergingghostwriters" target="__blank"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -40,6 +42,18 @@
                         <div style="float: right">
                             <img width="50%" style="border-radius: 50px;"
                                 src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}" alt="">
+                            <div class="footer-widget main-link mb-30 mt-4">
+                                <div class="footer-link">
+                                    <ul>
+                                        <li>
+                                            <a href="{{ route('terms') }}">Terms & Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('privacy') }}">Privacy & Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

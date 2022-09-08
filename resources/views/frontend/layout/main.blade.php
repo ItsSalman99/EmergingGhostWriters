@@ -1,19 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
-<!-- Mirrored from xpressrow.com/html/duxin/demo/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 12:37:35 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ env('APP_NAME') }}</title>
-    <meta name="description" content="">
+    <title>{{ env('APP_NAME') }} : Reasonable Ghostwriting Agency</title>
+    <meta name="description" content="A writing service provider is called Emerging Ghostwriters. Do you need a ghostwriter? We offer written content: articles, eBooks, and SEO material.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv='cache-control' content='no-cache'>
 
     <meta http-equiv='expires' content='0'>
 
     <meta http-equiv='pragma' content='no-cache'>
+    
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.png in the root directory -->
 

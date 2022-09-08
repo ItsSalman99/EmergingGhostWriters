@@ -41,6 +41,9 @@ Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio')
 
 Route::get('/ghostwriting-services', [HomeController::class, 'ghostWritingServices'])->name('ghostwriting-services');
 
+Route::get('terms-conditions', [HomeController::class, 'terms'])->name('terms');
+Route::get('privacy-policy', [HomeController::class, 'privacy'])->name('privacy');
+
 Route::prefix('admin')->middleware(['web', 'auth'])->group(function () {
     Route::get('/dashboard', [DashBoardController::class, 'index'])->name('dashboard');
     Route::get('regions', [RegionController::class, 'index'])->name('regions.index');

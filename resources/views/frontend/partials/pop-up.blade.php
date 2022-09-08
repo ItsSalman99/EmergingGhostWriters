@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="my-2">
-                    <button class="thm-btn thm-btn-2 bg-primary text-white" style="width: 100%!important">
+                    <button id="pop-btn" class="thm-btn thm-btn-2 bg-primary text-white" style="width: 100%!important">
                         Send
                     </button>
                 </div>

@@ -366,8 +366,14 @@
 		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 	});
 
+	//pop-up form ajax
+	$('#pop-btn').on('click', function(){
+		
+	});
+
 })(jQuery);
 
 function ClosePopUp() {
 	$('#pop-up').remove();
 }
+

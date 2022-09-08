@@ -22,6 +22,10 @@ class ContactController extends Controller
     {
         // dd($request->all());
   
+        if ($request->ajax()) {
+            dd($request->all());            
+        }
+
         Client::create([
             'name' => $request->name,
             'email' => $request->email,

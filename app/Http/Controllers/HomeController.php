@@ -145,4 +145,13 @@ class HomeController extends Controller
     {
         return view('frontend.ghostwriting.blog');
     }
+
+    public function terms()
+    {
+        return view('frontend.termspolicy.termsconditions');
+    }
+    public function privacy()
+    {
+        return view('frontend.termspolicy.privacypolicy');
+    }
 }
