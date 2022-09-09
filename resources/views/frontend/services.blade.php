@@ -47,7 +47,7 @@
                                         </a>
                                     </div>
                                     <div class="port-text">
-                                        <h4><a href="#">{{ $service->name }}</a></h4>
+                                        <h4><a>{{ $service->name }}</a></h4>
                                         <p class="text-ellipsis--2">{{ $service->description }}</p>
                                     </div>
                                 </div>

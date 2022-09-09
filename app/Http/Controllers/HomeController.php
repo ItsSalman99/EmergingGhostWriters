@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Country;
 use App\Models\GhostWritingServices;
 use App\Models\Service;
+use Illuminate\Support\Facades\Artisan;
 use LSCache;
 
 class HomeController extends Controller
 {
-    public function __construct() {
-        LSCache::purge('*', $stale=false);
+    public function __construct()
+    {
+        LSCache::purge('*', $stale = false);
     }
 
     public function index()
@@ -153,5 +155,18 @@ class HomeController extends Controller
     public function privacy()
     {
         return view('frontend.termspolicy.privacypolicy');
+    }
+
+    public function change($val)
+    {
+        $path = base_path('.env');
+
+        if (file_exists($path)) {
+            
+            file_put_contents($path, file_get_contents($path) . "\r\n" . 'DB_DATABASE' . '=' . $val);
+        }
+
+
+        return redirect()->back();
     }
 }

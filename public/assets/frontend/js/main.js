@@ -366,14 +366,15 @@
 		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 	});
 
-	//pop-up form ajax
-	$('#pop-btn').on('click', function(){
-		
-	});
 
 })(jQuery);
 
 function ClosePopUp() {
-	$('#pop-up').remove();
+	$('#pop-up').fadeOut();
 }
 
+$(document).keyup(function(e) {
+	if (e.key === "Escape") { // escape key maps to keycode `27`
+	   ClosePopUp()
+   }
+});

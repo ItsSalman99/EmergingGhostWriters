@@ -136,10 +136,6 @@
                             <div class="video-thumb">
                                 <img src="{{ asset('assets/frontend/img/bg/video-bg.jpg') }}" alt="">
                             </div>
-                            <div class="video-play-icon">
-                                <a class="popup-video video-icon" href="https://www.youtube.com/watch?v=cRXm1p-CNyk"><i
-                                        class="fas fa-play"></i></a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -330,8 +326,8 @@
                         </div>
                         <div class="col-xl-5 col-lg-6">
                             <ul class="careers-right">
-                                <li><a>Our Live Chat Support</a></li>
-                                <li><a>Get Free Consultation</a></li>
+                                <li><a href="javascript:void(Tawk_API.toggle())">Our Live Chat Support</a></li>
+                                <li><a href="{{ route('contact') }}">Get Free Consultation</a></li>
                             </ul>
                         </div>
                     </div>
