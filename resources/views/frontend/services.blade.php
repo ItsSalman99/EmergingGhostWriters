@@ -15,7 +15,7 @@
                     <div class="col-md-4">
                         <div class="breadcrumb-list mb-30">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>Services</li>
                             </ul>
                         </div>
@@ -47,7 +47,7 @@
                                         </a>
                                     </div>
                                     <div class="port-text">
-                                        <h4><a>{{ $service->name }}</a></h4>
+                                        <h4><a href="{{ route(preg_replace("/\s+/", "", $service->name)) }}">{{ $service->name }}</a></h4>
                                         <p class="text-ellipsis--2">{{ $service->description }}</p>
                                     </div>
                                 </div>

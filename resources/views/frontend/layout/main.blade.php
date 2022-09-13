@@ -12,7 +12,7 @@
 
     <meta http-equiv='pragma' content='no-cache'>
     
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/img/favicon.png')}}">
     <!-- Place favicon.png in the root directory -->
 
     <!-- CSS here -->
@@ -55,8 +55,36 @@
             <ul id="mobile-menu-active">
                 <li><a href="/">Home</a></li>
                 <li><a href="{{ route('about-us') }}">About</a></li>
-                <li><a href="{{ route('services') }}">Services</a></li>
-                <li><a href="{{ route('ghostwriting-services') }}">GhostWriting</a></li>
+                <li class="dropdown"><a>Services</a>
+                    <ul class="sub-menu">
+                        <li><a class="" href="{{route('BookWriting') }}">Book Writing</a></li>
+                        <li><a href="{{route('BookPublishing') }}">Book Publishing</a></li>
+                        <li><a href="{{route('BookMarketing') }}">Book Marketing</a></li>
+                        <li><a href="{{route('BookFormating') }}">Book Formating</a></li>
+                        <li><a href="{{route('VideoBookTrailers') }}">Video Book Trailers</a></li>
+                        <li><a href="{{route('SocialMediaMarketing') }}">Social Media Marketing</a></li>
+                        <li><a href="{{route('InteractiveE-Books') }}">Interactive E-Books</a></li>
+                        <li><a href="{{route('CreativeWriting') }}">Creative Writing</a></li>
+                        <li><a href="{{route('PressReleaseWriting') }}">Press Release Writing</a></li>
+                        <li><a href="{{route('Editing&ProofReading') }}">Editing & Proof Reading</a></li>
+                        <li><a href="{{route('BookCoverDesign') }}">Book Cover Design</a></li>
+                        <li><a href="{{route('AmazonMarketing') }}">Amazon Marketing</a></li>
+                        <li><a href="{{route('SEOWriting') }}">SEO Writing</a></li>
+                        <li><a href="{{route('AudioBooks') }}">Audio Books</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a>Ghost Writing</a>
+                    <ul class="sub-menu">
+                        <li><a class="" href="{{route('Fiction') }}">Fiction</a></li>
+                        <li><a href="{{route('BeautyGhostWriting') }}">Beauty Ghost Writing</a></li>
+                        <li><a href="{{route('BusinessGhostWriting') }}">Business Ghost Writing</a></li>
+                        <li><a href="{{route('FantasyGhostWriting') }}">Fantasy Ghost Writing</a></li>
+                        <li><a href="{{route('MedicalGhostWriting') }}">Medical Ghost Writing</a></li>
+                        <li><a href="{{route('ScreenPlayGhostWriting') }}">Screen Play Ghost Writing</a></li>
+                        <li><a href="{{route('NonFictionGhostWriting') }}">Non-Fiction Ghost Writing</a></li>
+                        <li><a href="{{route('BlogGhostWriting') }}">Blog Ghost Writing</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                 <li><a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a></li>
             </ul>
@@ -82,8 +110,6 @@
     <script src="{{ asset('assets/frontend/js/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
     @include('sweetalert::alert')
     <!--Start of Tawk.to Script-->

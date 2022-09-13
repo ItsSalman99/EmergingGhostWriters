@@ -1,7 +1,7 @@
 <div class="container shadow-lg pop-up" id="pop-up">
     <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-        <div class="col pop-img">
-
+        <div class="col imgcol">
+            <img class="pop-img" src="{{ asset('/assets/frontend/img/sale.jpeg') }}" alt="">
         </div>
         <div class="col p-4">
             <div class="d-flex justify-content-between">
@@ -17,32 +17,29 @@
                 @csrf
                 <div class="row my-2">
                     <div class="col">
-                        <input type="text" name="name" required placeholder="Your Name?" class="form-control"
-                            id="">
+                        <input type="text" name="name" required placeholder="Your Name?" class="form-control" id="">
                     </div>
                     <div class="col">
-                        <input type="text" name="profession" required placeholder="Your Profession?"
-                            class="form-control" id="">
+                        <input type="text" name="profession" required placeholder="Your Profession?" class="form-control" id="">
                     </div>
                 </div>
                 <div class="my-2">
                     <input type="email" name="email" placeholder="Your Email?" class="form-control" id="">
                 </div>
                 <div class="my-2">
-                    <div class="subject-filter ">
+                    <div class="subject-filter">
                         <select name="country" class="form-control" required id="">
                             <option value="">--- Select Region ---</option>
                             @foreach ($countries as $country)
-                                <option value="{{ $country->id }}">
-                                    {{ $country->name }}
-                                </option>
+                            <option value="{{ $country->id }}">
+                                {{ $country->name }}
+                            </option>
                             @endforeach
                         </select>
                     </div>
                 </div>
                 <div class="my-2">
-                    <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control"
-                        id="">
+                    <input type="tel" name="contact" placeholder="Your Contact Number?" class="form-control" id="">
                 </div>
                 <div class="my-2">
                     <div class="contact-input">
@@ -57,4 +54,4 @@
             </form>
         </div>
     </div>
-</div>  
+</div>

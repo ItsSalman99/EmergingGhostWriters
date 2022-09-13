@@ -12,6 +12,24 @@
                     <div class="testimonial-active owl-carousel">
                         <div class="testimonial-single">
                             <p>
+                                I have enjoyed working on my books with Emerging Ghostwriters, they have provided the amazing and fantastic service. 
+                                <br><br><br>
+                                I am grateful for their guidance as I navigate the publication process.
+                            </p>
+                            <div class="tm-author">
+                                <div class="tm-author-img">
+                                    <img src="{{ asset('assets/frontend/img/testimonial/tm-author-01.png') }}" alt="">
+                                </div>
+                                <div class="tm-author-text">
+                                    <h4>Tom Golisano</h4>
+                                </div>
+                                <div class="tm-icon">
+                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-single">
+                            <p>
                                 A fantastic ghostwriting service is Emerging Ghostwriters. Everything reflects their
                                 level of professionalism, from the salesperson's demeanor to the manner they uphold
                                 their rules. My book's material sounds exciting and tends to draw readers in. I would
@@ -19,8 +37,7 @@
                             </p>
                             <div class="tm-author">
                                 <div class="tm-author-img">
-                                    <img src="{{ asset('assets/frontend/img/testimonial/tm-author-05.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/frontend/img/testimonial/tm-author-05.png') }}" alt="">
                                 </div>
                                 <div class="tm-author-text">
                                     <h4>Millie Xinban</h4>
@@ -39,8 +56,7 @@
                             </p>
                             <div class="tm-author">
                                 <div class="tm-author-img">
-                                    <img src="{{ asset('assets/frontend/img/testimonial/tm-author-06.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/frontend/img/testimonial/tm-author-06.png') }}" alt="">
                                 </div>
                                 <div class="tm-author-text">
                                     <h4>Emma Tilman</h4>

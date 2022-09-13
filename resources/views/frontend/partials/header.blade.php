@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="ht-left f-left">
-                        <span><a href="mailto:info@webmail.com">info@emergingghostwriters.com</a></span>
-                        <span><a href="tel:78498798789">+1 361 273 1595</a></span>
+                        <span><a href="mailto:info@emergingghostwriters.com">info@emergingghostwriters.com</a></span>
+                        <span><a href="tel:13612731595">+1 361 273 1595</a></span>
                     </div>
                     <div class="ht-right f-right">
                     </div>
@@ -15,7 +15,7 @@
         </div>
     </div>
     <div id="sticky-header" class="header-bottom">
-        <div class="container">
+        <div class="container" id="header-container">
             <div class="menu-wrapper">
                 <div class="row align-items-center">
                     <div class="col-xl-5 col-lg-5 d-none d-lg-block">
@@ -33,7 +33,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-5 col-8">
 
                         <a href="/">
-                            <img width="80%" src="{{ asset('assets/frontend/img/logo/newlogo.gif') }}"
+                            <img width="80%" class="logo" src="{{ asset('assets/frontend/img/logo/newlogo.gif') }}"
                                 alt=""></a>
 
                     </div>

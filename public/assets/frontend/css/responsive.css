@@ -842,6 +842,13 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
+    #header-container{
+        padding-left: 0px;
+        padding-right: 0px;   
+    }
+    .logo{
+        width: 50%!important;
+    }
     .children {
         margin-left: 0;
     }

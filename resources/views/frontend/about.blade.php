@@ -7,7 +7,7 @@
     <main>
         <!-- page title start -->
         <section class="page-title-area pt-120 pb-80 black-thm-bg">
-            <div class="container" style="margin-top: 100px;">>
+            <div class="container" style="margin-top: 100px;">
                 <div class="row align-items-center">
                     <div class="col-md-8">
                         <div class="page-title mb-30">
@@ -348,10 +348,6 @@
                             <div class="video-thumb">
                                 <img src="{{ asset('assets/frontend/img/bg/video-bg-02.jpg') }}" alt="">
                             </div>
-                            <div class="video-play-icon">
-                                <a class="popup-video video-icon" href="https://www.youtube.com/watch?v=cRXm1p-CNyk"><i
-                                        class="fas fa-play"></i></a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -366,25 +362,10 @@
                                 content creation platform!
                             </p>
                             <div class="video-text-box pt-20">
-                                <div class="vt-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/vt-01.png') }}" alt="">
-                                    <i class="ti-check"></i>
-                                </div>
-                                <div class="vt-text">
-                                    <h5>Built with light & dark mode</h5>
-                                    <p>App allows users to earn points based on their daily engagement activities</p>
-                                </div>
-                            </div>
-                            <div class="video-text-box pt-20">
-                                <div class="vt-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/vt-02.png') }}" alt="">
-                                    <i class="ti-check"></i>
-                                </div>
-                                <div class="vt-text">
-                                    <h5>24/7 online & offline supoort</h5>
-                                    <p>App allows users to earn points based on their daily engagement activities</p>
-                                </div>
-                            </div>
+                            <ul class="careers-right">
+                                <li><a style="background-color: #fff;" href="javascript:void(Tawk_API.toggle())">Our Live Chat Support</a></li>
+                                <li><a style="background-color: #fff;" href="{{ route('contact') }}">Get Free Consultation</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

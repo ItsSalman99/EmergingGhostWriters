@@ -75,9 +75,8 @@
 		items: 1,
 		dots: false,
 		autoplay: true,
-		smartSpeed: 1000,
+		smartSpeed: 300,
 		autoplayTimeout: 5000,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 2
@@ -104,8 +103,7 @@
 		items: 1,
 		dots: false,
 		autoplay: true,
-		smartSpeed: 1000,
-		autoplayHoverPause: false,
+		smartSpeed: 300,
 		responsive: {
 			0: {
 				items: 2
@@ -300,19 +298,6 @@
 			}
 		});
 	}
-
-	/* magnificPopup img view */
-	$('.popup-image').magnificPopup({
-		type: 'image',
-		gallery: {
-			enabled: true
-		}
-	});
-
-	/* magnificPopup video view */
-	$('.popup-video').magnificPopup({
-		type: 'iframe'
-	});
 
 	// isotop
 	$('.grid').imagesLoaded(function () {
