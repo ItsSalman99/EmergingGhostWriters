@@ -34,11 +34,8 @@
                         Successful Creation
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus adipisci officia! Non
-                        dolorum
-                        error fugiat, rem possimus recusandae voluptatum blanditiis dolore. Dolor consequatur accusantium in
-                        ad
-                        neque culpa ab.
+                        Our distinguished ghostwriting services have won numerous awards and have more than ten years of
+                        experience in the field. Have a look at our portfolio.
                     </p>
                 </div>
 
@@ -59,85 +56,97 @@
                     <div class="col-lg-4 col-md-6 grid-item mb-30 comic">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/comic/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/comic/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 comic">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/comic/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/comic/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 children">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/children/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/children/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 children">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/children/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/children/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6 grid-item mb-30 actionadventure">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/actionadventure/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/actionadventure/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 actionadventure">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/actionadventure/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/actionadventure/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 autobiography">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/autobiography/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/autobiography/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 autobiography">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/autobiography/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/autobiography/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 classics">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/classics/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/classics/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 classics">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/classics/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/classics/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 fiction">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/fiction/Book-1.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/fiction/Book-1.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 grid-item mb-30 fiction">
                         <div class="port-single">
                             <div class="port-thumb text-center p-4">
-                                <img src="{{ asset('assets/frontend/img/books/fiction/Book-2.jpg') }}" style="width: 70%!important;" alt="">
+                                <img src="{{ asset('assets/frontend/img/books/fiction/Book-2.jpg') }}"
+                                    style="width: 70%!important;" alt="">
                             </div>
                         </div>
                     </div>

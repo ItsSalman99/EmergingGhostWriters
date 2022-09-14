@@ -1732,7 +1732,7 @@ select {
 }
 
 .testimonial-single {
-	height: 600px;
+	height: 700px;
 	background: #fff;
 	padding: 40px 50px 42px 50px;
 	border-radius: 12px;
@@ -5364,7 +5364,7 @@ video {
 	width: 70% !important;
 	border-radius: 20px;
 	position: fixed;
-	top: 20%;
+	top: 10%;
 	left: 13%;
 	z-index: 9999999;
 	background-color: #eee;

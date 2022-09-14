@@ -91,7 +91,7 @@
                                     </li>
                                     <li class="accordion block">
                                         <div class="acc-btn">
-                                            Is ghostwriting illegal?
+                                            Are your services 100% confidential?
                                         </div>
                                         <div class="acc-content">
                                             <div class="content">
@@ -228,23 +228,23 @@
                     <div class="col-12">
                         <div class="brand-bg">
                             <div class="brand-active-2 owl-carousel">
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/amazon.png') }}" alt="amazon">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/kobo.png') }}" alt="kobo">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img src="{{ asset('assets/frontend/img/brand/scribd.png') }}"
                                         style="width: 50%!important" alt="scribd">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img src="{{ asset('assets/frontend/img/brand/barnesnoble.png') }}" alt="barnesnoble"
                                         style="width: 50%!important">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img class="" style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/createspace.png') }}" alt="createspace">
                                 </div>
@@ -263,23 +263,23 @@
                     <div class="col-12">
                         <div class="brand-bg">
                             <div class="brand-active-2 owl-carousel">
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/lulu.png') }}" alt="amazon">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/ingramspark.png') }}" alt="kobo">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img src="{{ asset('assets/frontend/img/brand/draft2digital.png') }}"
                                         style="width: 50%!important" alt="scribd">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img src="{{ asset('assets/frontend/img/brand/smashwords.png') }}" alt="barnesnoble"
                                         style="width: 50%!important">
                                 </div>
-                                <div class="single-brand">
+                                <div class="single-brand text-center">
                                     <img class="" style="width: 50%!important"
                                         src="{{ asset('assets/frontend/img/brand/createspace.png') }}" alt="createspace">
                                 </div>
