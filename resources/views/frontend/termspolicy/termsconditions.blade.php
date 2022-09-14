@@ -157,7 +157,118 @@
                                     may have with the Service by getting in touch with the Company.
                                 </p>
                             </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    Refund Policy
+                                </h4>
+                                <p style="padding: 20px">
+                                    Before utilizing Our Service, please carefully read our return policy.
+                                    <br><br>
+                                    Reimbursements are handled on a case-by-case basis, and we try our best to support the
+                                    client and attend to their demands. <br>
+                                    To the best of our abilities, our team will always collaborate with the customer to find
+                                    solutions to any problems. <br>
+                                    If there is a great cause, orders that have not yet been allocated and started at the
+                                    time of the refund request may qualify for a refund, among other things. <br>
+                                    Refunds, if they are processed, may take up to 15 days to appear in the customer's
+                                    account. There will always be a processing fee of USD 250 or 5% of the order total
+                                    (whichever is larger). In the affirmation of favorability, the support team will provide
+                                    instructions for the refund request, which can only be completed using the original
+                                    payment method used to place the order. The email address you used to broaden the
+                                    initial checkout will also be used to notify you of the refund. <br><br>
+                                    Only under unique circumstances and under the following terms do we grant refunds:
+                                </p>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    Change Of Mind
+                                </h4>
+                                <ul style="padding: 30px;">
+                                    <li style="list-style: square; margin-bottom: 20px;">
+                                        Before Project Initiation: Before our writers and editors begin working on the
+                                        project, the buyer is entitled to a 100% refund. After making your order, you have
+                                        one day to request a refund if (for any reason) you change your mind and decide to
+                                        end your project with us.
+                                    </li>
+                                    <li style="list-style: square">
+                                        Project Progress: Due to the requirement to appropriately compensate our internal
+                                        team, we reserve the right to only partially refund any refund requests made after
+                                        the project has begun and the client has opted for at least one round of revision.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    INCOMPETENT DELIVERY:
+                                </h4>
+                                <p style="padding: 20px">
+                                    Customers may only request a refund once the job has been delivered and all other
+                                    available options have been tried. <br>
+                                    If the project requirements are not met (as requested/documented by the customer).
+                                    <br><br>
+                                    To guarantee complete customer pleasure, we offer limitless revisions to ensure the
+                                    delivery is up to par. We assign, reassign, and rewrite your task to guarantee your
+                                    complete pleasure. Reserve FREE Pages for the future that you can access at any moment
+                                    and are of the same value. If we can still not fulfill your request, a mutually
+                                    agreed-upon fixed percentage refund will be processed (but only in the cases where the
+                                    delivery is completely off the mark).
 
+                                </p>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    Late Deliverly:
+                                </h4>
+                                <p style="padding: 20px">
+                                    We pride ourselves on "On Time Delivery." Still, if, for any reason, after at least
+                                    three attempts to reach us, we cannot provide the requested Service on time, your refund
+                                    will be processed once it has been determined through documentary evidence that the
+                                    Company was at fault for the delayed delivery.
+                                </p>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    Refund Time Frame:
+                                </h4>
+                                <p style="padding: 20px">
+                                    If no modifications were requested, refund requests must be made within ten days of the
+                                    first submission or order delivery. After the specified period, refund requests won't be
+                                    taken into consideration. <br><br>
+                                    When placing a purchase, each customer must take note of the deadline for requesting a
+                                    refund.
+                                </p>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    Cases Where Refund Will Not Be Issued:
+                                </h4>
+                                <ul style="padding: 30px;">
+                                    <li style="list-style: square; margin-bottom: 20px;">
+                                        The Company will only settle with a partial refund or discounts set aside for future
+                                        orders in cases of late delivery caused by minor technical mistakes, such as
+                                        grammatical, typing, word count, missing references, etc.
+                                    </li>
+                                    <li style="list-style: square">
+                                        Any delays caused by the client will not be the Company's fault.
+                                    </li>
+                                    <li style="list-style: square">
+                                        Due to the low word count, there will be no reimbursement.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="padding: 20px">
+                                <h4>
+                                    MODIFICATIONS TO THE SERVICE AND PRICES:
+                                </h4>
+                                <p style="padding: 20px">
+                                    Our service fees and discounts are subject to change without prior notice. <br>
+                                    We retain the right to change or stop providing the Service (or any feature or material
+                                    within) at any time and without prior notice. <br><br>
+                                    Any time the Service is altered, its pricing is changed, suspended, or discontinued, we
+                                    won't be responsible to you or any third parties.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

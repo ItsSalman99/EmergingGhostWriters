@@ -69,7 +69,6 @@
                             <div class="video-image">
                                 <img src="{{ asset('assets/frontend/img/bg/video-bg-03.jpg') }}" alt="">
                             </div>
-                            <a class="popup-video video-icon" href="https://www.youtube.com/watch?v=cRXm1p-CNyk"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>

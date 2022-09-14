@@ -30,7 +30,7 @@
             <div class="container">
                 <div style="margin-bottom: 100px">
                     <h1>
-                        Our Magnificent
+                        Our Creative
                         Successful Creation
                     </h1>
                     <p>

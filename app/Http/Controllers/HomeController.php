@@ -18,9 +18,11 @@ class HomeController extends Controller
     public function index()
     {
         $countries = Country::cursor();
+        $services  = Service::paginate(6);
 
         return view('frontend.index')->with([
-            'countries' => $countries
+            'countries' => $countries,
+            'services' => $services
         ]);
     }
 

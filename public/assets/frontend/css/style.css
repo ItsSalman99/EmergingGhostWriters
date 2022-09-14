@@ -5389,7 +5389,7 @@ video {
 
 @media only screen and (max-width: 600px) {
 	.pop-up {
-		top: 2%;
+		top: 1%;
 	}
 
 	.pop-up input
@@ -5430,6 +5430,14 @@ video {
 	}
 
 	video {
-		height: 150vh !important;
+		height: 160vh !important;
+	}
+	#hide-on-mobile{
+		display: none;
+	}
+	.pop-close{
+		position: absolute;
+		top: -230px;
+		right: 10px;
 	}
 }

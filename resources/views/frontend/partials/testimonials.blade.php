@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-single">
+                        {{-- <div class="testimonial-single">
                             <p>
                                 They are top-notch. Being able to collaborate with them was exciting. They promised to
                                 write articles for me and optimize my content for search engines. They were more than
@@ -70,7 +70,7 @@
                                     <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="testimonial-single">
                             <p>
                                 I have enjoyed working on my books with Emerging Ghostwriters, they have provided the

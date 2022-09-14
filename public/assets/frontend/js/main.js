@@ -76,7 +76,7 @@
 		dots: false,
 		autoplay: true,
 		smartSpeed: 300,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 2000,
 		responsive: {
 			0: {
 				items: 2
@@ -104,6 +104,7 @@
 		dots: false,
 		autoplay: true,
 		smartSpeed: 300,
+		autoplayTimeout: 2000,
 		responsive: {
 			0: {
 				items: 2

@@ -9,7 +9,7 @@
                     <h3>Get Our Free Consultation</h3>
                 </div>
                 <div>
-                    <a class="btn btn-danger btn-sm text-white" onclick="ClosePopUp()">&times;</a>
+                    <a class="btn btn-danger btn-sm text-white pop-close" onclick="ClosePopUp()">&times;</a>
                 </div>
             </div>
             <br>

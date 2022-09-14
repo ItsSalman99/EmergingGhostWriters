@@ -1,7 +1,6 @@
 @extends('frontend.layout.main')
 
 @section('content')
-
     @include('frontend.partials.pop-up')
 
     <main>
@@ -57,6 +56,46 @@
             </div> --}}
         </section>
         <!-- banner end -->
+
+        <section class="services-area services-2 pt-120 pb-120" id="hide-on-mobile">
+            <div class="container">
+                <div class="page-title mb-30">
+                    <h3 class="text-dark">Our Services</h3>
+                </div>
+                <div class="row">
+                    @foreach ($services as $service)
+                        <div class="col-lg-4 p-2">
+                            <div class="port-single">
+                                <div class="port-thumb"
+                                    style="background-color: tomato; border-bottom: 5px solid #000; text-align: center; padding: 20px;">
+                                    <img style="width: 50%!important; margin: 0 auto!important;"
+                                        src="{{ asset('assets/frontend/img/icon/service-' . $service->id . '.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="port-content">
+                                    <div class="port-icon">
+                                        <a href="{{ route(preg_replace('/\s+/', '', $service->name)) }}" class="bg-dark">
+                                            <i class="ti-arrow-right text-white"></i>
+                                        </a>
+                                    </div>
+                                    <div class="port-text">
+                                        <h4><a
+                                                href="{{ route(preg_replace('/\s+/', '', $service->name)) }}">{{ $service->name }}</a>
+                                        </h4>
+                                        <p class="text-ellipsis--2">{{ $service->description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+                <hr>
+                <div class="w-50 m-auto">
+                    {{ $services->links('pagination::bootstrap-4') }}
+                </div>
+            </div>
+        </section>
+
 
         <!-- faq start -->
         <section class="faq-area faq-2 gray-bg">
@@ -246,7 +285,7 @@
                                 </div>
                                 <div class="single-brand text-center">
                                     <img class="" style="width: 50%!important"
-                                        src="{{ asset('assets/frontend/img/brand/createspace.png') }}" alt="createspace">
+                                        src="{{ asset('assets/frontend/img/brand/googlebooks.png') }}" alt="createspace">
                                 </div>
                             </div>
                         </div>
