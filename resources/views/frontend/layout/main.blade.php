@@ -57,6 +57,7 @@
                 <li><a href="{{ route('about-us') }}">About</a></li>
                 <li class="dropdown"><a>Services</a>
                     <ul class="sub-menu">
+                        <li><a class="" href="{{route('services') }}">All Services</a></li>
                         <li><a class="" href="{{route('BookWriting') }}">Book Writing</a></li>
                         <li><a href="{{route('BookPublishing') }}">Book Publishing</a></li>
                         <li><a href="{{route('BookMarketing') }}">Book Marketing</a></li>
@@ -75,6 +76,7 @@
                 </li>
                 <li class="dropdown"><a>Ghost Writing</a>
                     <ul class="sub-menu">
+                        <li><a class="" href="{{route('ghostwriting-services') }}">All GhostWriting Services</a></li>
                         <li><a class="" href="{{route('Fiction') }}">Fiction</a></li>
                         <li><a href="{{route('BeautyGhostWriting') }}">Beauty Ghost Writing</a></li>
                         <li><a href="{{route('BusinessGhostWriting') }}">Business Ghost Writing</a></li>

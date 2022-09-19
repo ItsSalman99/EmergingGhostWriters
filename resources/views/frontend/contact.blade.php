@@ -25,19 +25,8 @@
         </section>
         <!-- page title end -->
 
-        <!-- map start -->
-        <section class="gmaps-area">
-            <div class="contact-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.1074320663256!2d-106.33132238458957!3d42.849464679157094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8760bca480ca44a5%3A0xf5d42b5e551b1978!2s312%20W%202nd%20St%2C%20Casper%2C%20WY%2082601%2C%20USA!5e0!3m2!1sen!2s!4v1662646864908!5m2!1sen!2s"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-        <!-- map end -->
-
         <!-- contact form start -->
-        <section class="contact-area contact-2 pb-120">
+        <section class="contact-area contact-2 pb-120" style="margin-top: 300px">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -109,5 +98,6 @@
             </div>
         </section>
         <!-- contact end -->
+        
     </main>
 @endsection

@@ -15,8 +15,10 @@
                             </div>
                             <div class="f-about-social">
                                 <h4 class="fa-title">Social Contact</h4>
-                                <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="http://instagram.com/emergingghostwriters" target="__blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="http://instagram.com/emergingghostwriters" target="__blank"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -38,7 +40,8 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div style="float: right">
-                            <img width="50%" style="border-radius: 50px;" src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}" alt="">
+                            <img width="50%" style="border-radius: 50px;"
+                                src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}" alt="">
                             <div class="footer-widget main-link mb-30 mt-4">
                                 <div class="footer-link">
                                     <ul class="d-flex justify-content-between">
@@ -52,8 +55,12 @@
                                 </div>
                                 <div>
                                     <div class="d-flex">
-                                        <a class="thm-btn thm-btn-2" style="font-size: 12px; margin-right: 10px; padding: 10px;" href="javascript:void(Tawk_API.toggle())">Chat With US</a>
-                                        <a class="thm-btn border-btn" style="font-size: 12px; margin-right: 10px; padding: 10px;" href="{{ route('contact') }}">Get Free Consultation</a>
+                                        <a class="thm-btn thm-btn-2"
+                                            style="font-size: 12px; margin-right: 10px; padding: 10px;"
+                                            href="javascript:void(Tawk_API.toggle())">Chat With US</a>
+                                        <a class="thm-btn border-btn"
+                                            style="font-size: 12px; margin-right: 10px; padding: 10px;"
+                                            href="{{ route('contact') }}">Get Free Consultation</a>
                                     </div>
                                 </div>
                             </div>

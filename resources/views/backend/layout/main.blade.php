@@ -53,9 +53,61 @@
     <section class="main_content dashboard_part large_header_bg">
 
         @include('backend.partials.header')
-    
+
+        <!-- slide-bar start -->
+        <aside class="slide-bar">
+            <div class="close-mobile-menu">
+                <a href="javascript:void(0);"><i class="ti-close"></i></a>
+            </div>
+            <!-- side-mobile-menu start -->
+            <nav class="side-mobile-menu">
+                <ul id="mobile-menu-active">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{ route('about-us') }}">About</a></li>
+                    <li class="dropdown"><a>Services</a>
+                        <ul class="sub-menu">
+                            <li><a class="" href="{{ route('services') }}">All Services</a></li>
+                            <li><a class="" href="{{ route('BookWriting') }}">Book Writing</a></li>
+                            <li><a href="{{ route('BookPublishing') }}">Book Publishing</a></li>
+                            <li><a href="{{ route('BookMarketing') }}">Book Marketing</a></li>
+                            <li><a href="{{ route('BookFormating') }}">Book Formating</a></li>
+                            <li><a href="{{ route('VideoBookTrailers') }}">Video Book Trailers</a></li>
+                            <li><a href="{{ route('SocialMediaMarketing') }}">Social Media Marketing</a></li>
+                            <li><a href="{{ route('InteractiveE-Books') }}">Interactive E-Books</a></li>
+                            <li><a href="{{ route('CreativeWriting') }}">Creative Writing</a></li>
+                            <li><a href="{{ route('PressReleaseWriting') }}">Press Release Writing</a></li>
+                            <li><a href="{{ route('Editing&ProofReading') }}">Editing & Proof Reading</a></li>
+                            <li><a href="{{ route('BookCoverDesign') }}">Book Cover Design</a></li>
+                            <li><a href="{{ route('AmazonMarketing') }}">Amazon Marketing</a></li>
+                            <li><a href="{{ route('SEOWriting') }}">SEO Writing</a></li>
+                            <li><a href="{{ route('AudioBooks') }}">Audio Books</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a>Ghost Writing</a>
+                        <ul class="sub-menu">
+                            <li><a class="" href="{{ route('ghostwriting-services') }}">All GhostWriting
+                                    Services</a></li>
+                            <li><a class="" href="{{ route('Fiction') }}">Fiction</a></li>
+                            <li><a href="{{ route('BeautyGhostWriting') }}">Beauty Ghost Writing</a></li>
+                            <li><a href="{{ route('BusinessGhostWriting') }}">Business Ghost Writing</a></li>
+                            <li><a href="{{ route('FantasyGhostWriting') }}">Fantasy Ghost Writing</a></li>
+                            <li><a href="{{ route('MedicalGhostWriting') }}">Medical Ghost Writing</a></li>
+                            <li><a href="{{ route('ScreenPlayGhostWriting') }}">Screen Play Ghost Writing</a></li>
+                            <li><a href="{{ route('NonFictionGhostWriting') }}">Non-Fiction Ghost Writing</a></li>
+                            <li><a href="{{ route('BlogGhostWriting') }}">Blog Ghost Writing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                    <li><a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a></li>
+                </ul>
+            </nav>
+            <!-- side-mobile-menu end -->
+        </aside>
+        <div class="body-overlay"></div>
+        <!-- slide-bar end -->
+
         @yield('content')
-    
+
     </section>
 
 
