@@ -5371,6 +5371,12 @@ video {
 	box-shadow: 2px 2px 2px 2px #000;
 }
 
+.imgcol{
+    background-image: url('/assets/frontend/img/sale.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
 .pop-img {
 	width: 100%;
 	height: 100%;
@@ -5435,9 +5441,17 @@ video {
 	#hide-on-mobile{
 		display: none;
 	}
+
 	.pop-close{
 		position: absolute;
-		top: -230px;
+		top: -180px;
 		right: 10px;
 	}
+    .imgcol{
+        border-radius: 20px;
+        height: 200px;
+    }
+    .footer-logo{
+        display: none;
+    }
 }

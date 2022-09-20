@@ -41,7 +41,7 @@
                                 <img src="{{ asset('assets/frontend/img/bg/about-sml.jpg') }}" alt="">
                             </div>
                             <div class="about-left-text text-center">
-                                <h3>25<span>+</span></h3>
+                                <h3>10<span>+</span></h3>
                                 <p>Years Experience</p>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                                     <div class="tipWrap">
                                         <span class="tip"></span>
                                     </div>
-                                    <span class="fill" data-percentage="82"></span>
+                                    <span class="fill" data-percentage="85"></span>
                                 </div>
                             </div>
                             <div class="single-skill mb-30">
@@ -229,7 +229,7 @@
                                     <div class="tipWrap">
                                         <span class="tip"></span>
                                     </div>
-                                    <span class="fill" data-percentage="56"></span>
+                                    <span class="fill" data-percentage="75"></span>
                                 </div>
                             </div>
                             <div class="single-skill mb-30">
@@ -238,7 +238,7 @@
                                     <div class="tipWrap">
                                         <span class="tip"></span>
                                     </div>
-                                    <span class="fill" data-percentage="50"></span>
+                                    <span class="fill" data-percentage="85"></span>
                                 </div>
                             </div>
                         </div>
@@ -247,44 +247,6 @@
             </div>
         </section>
         <!-- skill end -->
-
-        <!-- gallery start -->
-        <section class="gallery-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="gallery-active owl-carousel">
-                            <div class="gallery-item">
-                                <div class="gallery-img">
-                                    <img src="img/gallery/gallery-01.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="gallery-item">
-                                <div class="gallery-img">
-                                    <img src="img/gallery/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="gallery-item">
-                                <div class="gallery-img">
-                                    <img src="img/gallery/gallery-03.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="gallery-item">
-                                <div class="gallery-img">
-                                    <img src="img/gallery/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="gallery-item">
-                                <div class="gallery-img">
-                                    <img src="img/gallery/gallery-01.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- gallery end -->
 
         <!-- team start -->
         <section class="team-area pt-120 pb-90">

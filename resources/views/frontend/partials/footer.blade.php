@@ -13,13 +13,6 @@
                                     to turning your ideas into reality.
                                 </p>
                             </div>
-                            <div class="f-about-social">
-                                <h4 class="fa-title">Social Contact</h4>
-                                <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a href="http://instagram.com/emergingghostwriters" target="__blank"><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -39,10 +32,16 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div style="float: right">
-                            <img width="50%" style="border-radius: 50px;"
-                                src="{{ asset('assets/frontend/img/logo/newlogo.jpg') }}" alt="">
+                        <div>
                             <div class="footer-widget main-link mb-30 mt-4">
+                                <div class="f-about-social">
+                                    <h4 class="fa-title">Social Contact</h4>
+                                    <a href="https://www.facebook.com/emerging.ghostwriter/" target="__blank"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="http://instagram.com/emergingghostwriters" target="__blank"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                                <br>
                                 <div class="footer-link">
                                     <ul class="d-flex justify-content-between">
                                         <li style="margin-right: 10px;">
