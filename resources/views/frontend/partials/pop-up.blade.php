@@ -1,8 +1,8 @@
 <div class="container shadow-lg pop-up" id="pop-up">
     <div class="row">
-        <div class="col imgcol">
+        <div class="col-lg-6 imgcol">
         </div>
-        <div class="col p-4">
+        <div class="col-lg-6 p-4">
             <div class="d-flex justify-content-between">
                 <div>
                     <h3>
