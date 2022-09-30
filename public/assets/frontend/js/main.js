@@ -2,11 +2,6 @@
 (function ($) {
 	"use strict";
 
-	// preloader
-	$(window).on("load", function () {
-		$(".preloader").delay(350).fadeOut('slow');
-	});
-
 	// toggle search bar
 	$('.header-search-wrapper .search-main > i').click(function () {
 		$(".header-search-wrapper .search-main > i").hide();

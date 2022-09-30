@@ -11,7 +11,7 @@
     <meta http-equiv='expires' content='0'>
 
     <meta http-equiv='pragma' content='no-cache'>
-    
+
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/img/favicon.png')}}">
     <!-- Place favicon.png in the root directory -->
 
@@ -31,17 +31,6 @@
 </head>
 
 <body>
-
-    <!-- preloader start -->
-    <div class="preloader">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- preloader end -->
 
     @include('frontend.partials.header')
 
