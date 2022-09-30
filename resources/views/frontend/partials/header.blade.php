@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <div class="ht-left f-left">
                         <span><a href="mailto:info@emergingghostwriters.com">info@emergingghostwriters.com</a></span>
-                        <span><a href="tel:13612731595">+1 361 273 1595</a></span>
+                        <span><a href="tel:13613554874">+1 361 355 4874</a></span>
                     </div>
                     <div class="ht-right f-right">
                     </div>

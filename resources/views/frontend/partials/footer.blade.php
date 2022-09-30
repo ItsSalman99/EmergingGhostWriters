@@ -12,6 +12,10 @@
                                     We are an enthusiastic group of writers, managers, editors, and designers dedicated
                                     to turning your ideas into reality.
                                 </p>
+                                <hr>
+                                <p>
+                                   Address:  <span style="color: dodgerblue">312 W 2nd St Unit #A1357 Casper, WY 82601</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +82,11 @@
 
                         <span><a href="mailto:info@emergingghostwriters.com">info@emergingghostwriters.com</a></span>
                         <br>
-                        <span><a href="tel:13612731595">+1 361 273 1595</a></span>
+                        <span><a href="tel:13613554874">+1 361 355 4874</a></span>
+                        <br>
+                        <span style="color: dodgerblue">
+                            312 W 2nd St Unit #A1357 Casper, WY 82601
+                        </span>
                     </div>
                 </div>
             </div>
