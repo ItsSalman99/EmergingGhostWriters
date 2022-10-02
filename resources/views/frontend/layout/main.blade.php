@@ -1,9 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ env('APP_NAME') }} : Reasonable Ghostwriting Agency</title>
+    <title>{{ env('APP_NAME') }} : US Ghostwriting Agency</title>
     <meta name="description" content="A writing service provider is called Emerging Ghostwriters. Do you need a ghostwriter? We offer written content: articles, eBooks, and SEO material.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv='cache-control' content='no-cache'>
@@ -12,8 +13,11 @@
 
     <meta http-equiv='pragma' content='no-cache'>
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/img/favicon.png')}}">
-    <!-- Place favicon.png in the root directory -->
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/frontend/img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/frontend/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/frontend/img/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/frontend/img/favicon/site.webmanifest') }}">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}">

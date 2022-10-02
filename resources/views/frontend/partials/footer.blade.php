@@ -65,6 +65,9 @@
                                             style="font-size: 12px; margin-right: 10px; padding: 10px;"
                                             href="{{ route('contact') }}">Get Free Consultation</a>
                                     </div>
+                                    <div>
+                                        <img src="{{ asset('assets/frontend/img/Turspilot.png') }}" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
