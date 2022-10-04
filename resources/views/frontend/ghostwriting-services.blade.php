@@ -34,7 +34,7 @@
                 @foreach ($ghostwritingservices as $service)
                 <div class="col-lg-4 p-2">
                     <div class="port-single">
-                        <div class="port-thumb" style="background-color: tomato; border-bottom: 5px solid #000; text-align: center; padding: 20px;">
+                        <div class="port-thumb" style="background-color: #fff; border-bottom: 5px solid #000; text-align: center; padding: 20px;">
                             <img style="width: 50%!important; margin: 0 auto!important;" src="{{ asset('assets/frontend/img/icon/service-' . $service->id . '.png') }}" alt="">
                         </div>
                         <div class="port-content">

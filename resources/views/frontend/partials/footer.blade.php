@@ -85,7 +85,7 @@
 
                         <span><a href="mailto:info@emergingghostwriters.com">info@emergingghostwriters.com</a></span>
                         <br>
-                        <span><a href="tel:13613554874">+1 361 355 4874</a></span>
+                        <span><a href="tel:3613606071">(361) 360-6071</a></span>
                         <br>
                         <span style="color: dodgerblue">
                             312 W 2nd St Unit #A1357 Casper, WY 82601

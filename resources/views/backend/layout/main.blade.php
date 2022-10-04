@@ -1,155 +1,129 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<!-- Mirrored from demo.dashboardpack.com/sales-html/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Aug 2022 14:04:14 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="en">
 
 <head>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cuba admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
     <title>Dashboard - {{ env('APP_NAME') }}</title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/icofont.css') }}">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/themify.css') }}">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/flag-icon.css') }}">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/feather-icon.css') }}">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/scrollbar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/animate.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/chartist.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/date-picker.css') }}">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/vendors/bootstrap.css') }}">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/style.css') }}">
+    <link id="color" rel="stylesheet" href="{{ asset('assets/backend/css/color-1.css') }}" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/responsive.css') }}">
 
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/css/bootstrap1.min.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/themefy_icon/themify-icons.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/niceselect/css/nice-select.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/owl_carousel/css/owl.carousel.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/gijgo/gijgo.min.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/font_awesome/css/all.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/tagsinput/tagsinput.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/datepicker/date-picker.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/vectormap-home/vectormap-2.0.2.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/scroll/scrollable.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/datatable/css/jquery.dataTables.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/datatable/css/responsive.dataTables.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/datatable/css/buttons.dataTables.min.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/text_editor/summernote-bs4.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/morris/morris.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/vendors/material_icon/material-icons.css') }}" />
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/css/metisMenu.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('assets/backend/css/style1.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/backend/css/colors/default.css') }}" id="colorSkinCSS">
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
 </head>
 
-<body class="crm_body_bg">
-
-    @include('backend.partials.nav')
-
-    <section class="main_content dashboard_part large_header_bg">
-
-        @include('backend.partials.header')
-
-        <!-- slide-bar start -->
-        <aside class="slide-bar">
-            <div class="close-mobile-menu">
-                <a href="javascript:void(0);"><i class="ti-close"></i></a>
-            </div>
-            <!-- side-mobile-menu start -->
-            <nav class="side-mobile-menu">
-                <ul id="mobile-menu-active">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="{{ route('about-us') }}">About</a></li>
-                    <li class="dropdown"><a>Services</a>
-                        <ul class="sub-menu">
-                            <li><a class="" href="{{ route('services') }}">All Services</a></li>
-                            <li><a class="" href="{{ route('BookWriting') }}">Book Writing</a></li>
-                            <li><a href="{{ route('BookPublishing') }}">Book Publishing</a></li>
-                            <li><a href="{{ route('BookMarketing') }}">Book Marketing</a></li>
-                            <li><a href="{{ route('BookFormating') }}">Book Formating</a></li>
-                            <li><a href="{{ route('VideoBookTrailers') }}">Video Book Trailers</a></li>
-                            <li><a href="{{ route('SocialMediaMarketing') }}">Social Media Marketing</a></li>
-                            <li><a href="{{ route('InteractiveE-Books') }}">Interactive E-Books</a></li>
-                            <li><a href="{{ route('CreativeWriting') }}">Creative Writing</a></li>
-                            <li><a href="{{ route('PressReleaseWriting') }}">Press Release Writing</a></li>
-                            <li><a href="{{ route('Editing&ProofReading') }}">Editing & Proof Reading</a></li>
-                            <li><a href="{{ route('BookCoverDesign') }}">Book Cover Design</a></li>
-                            <li><a href="{{ route('AmazonMarketing') }}">Amazon Marketing</a></li>
-                            <li><a href="{{ route('SEOWriting') }}">SEO Writing</a></li>
-                            <li><a href="{{ route('AudioBooks') }}">Audio Books</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a>Ghost Writing</a>
-                        <ul class="sub-menu">
-                            <li><a class="" href="{{ route('ghostwriting-services') }}">All GhostWriting
-                                    Services</a></li>
-                            <li><a class="" href="{{ route('Fiction') }}">Fiction</a></li>
-                            <li><a href="{{ route('BeautyGhostWriting') }}">Beauty Ghost Writing</a></li>
-                            <li><a href="{{ route('BusinessGhostWriting') }}">Business Ghost Writing</a></li>
-                            <li><a href="{{ route('FantasyGhostWriting') }}">Fantasy Ghost Writing</a></li>
-                            <li><a href="{{ route('MedicalGhostWriting') }}">Medical Ghost Writing</a></li>
-                            <li><a href="{{ route('ScreenPlayGhostWriting') }}">Screen Play Ghost Writing</a></li>
-                            <li><a href="{{ route('NonFictionGhostWriting') }}">Non-Fiction Ghost Writing</a></li>
-                            <li><a href="{{ route('BlogGhostWriting') }}">Blog Ghost Writing</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                    <li><a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a></li>
-                </ul>
-            </nav>
-            <!-- side-mobile-menu end -->
-        </aside>
-        <div class="body-overlay"></div>
-        <!-- slide-bar end -->
-
-        @yield('content')
-
-    </section>
-
-
-    <div id="back-top" style="display: none;">
-        <a title="Go to Top" href="#">
-            <i class="ti-angle-up"></i>
-        </a>
+<body onload="startTime()">
+    <div class="loader-wrapper">
+        <div class="loader-index"><span></span></div>
+        <svg>
+            <defs></defs>
+            <filter id="goo">
+                <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+                <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo">
+                </fecolormatrix>
+            </filter>
+        </svg>
     </div>
+    <!-- tap on top starts-->
+    <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+    <!-- tap on tap ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+        <!-- Page Header Start-->
+        @include('backend.partials.header')
+        <!-- Page Header Ends                              -->
+        <!-- Page Body Start-->
+        <div class="page-body-wrapper">
+            <!-- Page Sidebar Start-->
+            @include('backend.partials.sidebar')
+            <!-- Page Sidebar Ends-->
+            @yield('content')
+            <!-- footer start-->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 footer-copyright text-center">
+                            <p class="mb-0">Copyright 2021 © Cuba theme by pixelstrap </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="{{ asset('assets/backend/js/jquery-3.5.1.min.js') }}"></script>
+    <!-- Bootstrap js-->
+    <script src="{{ asset('assets/backend/js/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <!-- feather icon js-->
+    <script src="{{ asset('assets/backend/js/icons/feather-icon/feather.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/icons/feather-icon/feather-icon.js') }}"></script>
+    <!-- scrollbar js-->
+    <script src="{{ asset('assets/backend/js/scrollbar/simplebar.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/scrollbar/custom.js') }}"></script>
+    <!-- Sidebar jquery-->
+    <script src="{{ asset('assets/backend/js/config.js') }}"></script>
+    <!-- Plugins JS start-->
+    <script src="{{ asset('assets/backend/js/sidebar-menu.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/chartist/chartist.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/chartist/chartist-plugin-tooltip.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/knob/knob.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/knob/knob-chart.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/apex-chart/apex-chart.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/chart/apex-chart/stock-prices.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/notify/bootstrap-notify.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/dashboard/default.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/notify/index.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.en.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.custom.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/typeahead/handlebars.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/typeahead/typeahead.bundle.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/typeahead/typeahead.custom.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/typeahead-search/handlebars.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/typeahead-search/typeahead-custom.js') }}"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="{{ asset('assets/backend/js/script.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/theme-customizer/customizer.js') }}"></script>
+    @include('sweetalert::alert')
 
-    <script src="{{ asset('assets/backend/js/jquery1-3.4.1.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/js/popper1.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/js/bootstrap.min.html') }}"></script>
-
-    <script src="{{ asset('assets/backend/js/metisMenu.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/count_up/jquery.waypoints.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/chartlist/Chart.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/count_up/jquery.counterup.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/niceselect/js/jquery.nice-select.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/owl_carousel/js/owl.carousel.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/datatable/js/buttons.flash.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/datatable/js/jszip.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/datatable/js/pdfmake.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/datatable/js/vfs_fonts.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/datatable/js/buttons.html5.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/datatable/js/buttons.print.min.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/scroll/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/scroll/scrollable-custom.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/vendors/chart_am/animated.js') }}"></script>
-    <script src="{{ asset('assets/backend/vendors/chart_am/kelly.js') }}"></script>
-
-    <script src="{{ asset('assets/backend/js/dashboard_init.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/custom.js') }}"></script>
+    @yield('extra-js')
+    <!-- login js-->
+    <!-- Plugin used-->
 </body>
 
 </html>

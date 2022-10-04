@@ -9,7 +9,9 @@ class ClientController extends Controller
 {
     public function index()
     {
-        $clients = Client::cursor();
+        $clients = Client::all();
+
+        // dd($clients);
 
         return view('backend.clients.index', compact('clients'));
     }

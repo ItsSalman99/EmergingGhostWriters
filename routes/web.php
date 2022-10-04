@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashBoardController;
@@ -44,10 +45,18 @@ Route::get('/ghostwriting-services', [HomeController::class, 'ghostWritingServic
 Route::get('terms-conditions', [HomeController::class, 'terms'])->name('terms');
 Route::get('privacy-policy', [HomeController::class, 'privacy'])->name('privacy');
 
+// Blog
+Route::get('blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/posts/{id}', [BlogController::class, 'blogDetails'])->name('backend.blogs.details');
+
 Route::prefix('admin')->middleware(['web', 'auth'])->group(function () {
     Route::get('/dashboard', [DashBoardController::class, 'index'])->name('dashboard');
     Route::get('regions', [RegionController::class, 'index'])->name('regions.index');
     Route::get('clients', [ClientController::class, 'index'])->name('clients.index');
+    Route::get('/blog/posts', [BlogController::class, 'blogs'])->name('backend.blogs');
+
+    Route::get('/blog/posts/create', [BlogController::class, 'create'])->name('backend.blogs.create');
+    Route::post('/blog/posts/store', [BlogController::class, 'store'])->name('backend.blogs.store');
 });
 
 

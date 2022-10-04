@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="c-text">
                                     <h4>Phone Number</h4>
-                                    <p>+1 361 273 1595</p>
+                                    <p>(361) 360-6071</p>
                                     <br>
                                 </div>
                             </div>
@@ -98,6 +98,6 @@
             </div>
         </section>
         <!-- contact end -->
-        
+
     </main>
 @endsection

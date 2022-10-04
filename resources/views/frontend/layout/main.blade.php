@@ -81,6 +81,7 @@
                     </ul>
                 </li>
                 <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                <li><a href="{{ route('blog.index') }}">Blog</a></li>
                 <li><a class="thm-btn thm-btn-3" href="{{ route('contact') }}">Get A Quote</a></li>
             </ul>
         </nav>

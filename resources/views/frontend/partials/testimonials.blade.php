@@ -25,9 +25,7 @@
                                 <div class="tm-author-text">
                                     <h4>Eliya Masanja</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div>
                         <div class="testimonial-single">
@@ -46,9 +44,7 @@
                                 <div class="tm-author-text">
                                     <h4>Henrik Furebotten</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div>
                         {{-- <div class="testimonial-single">
@@ -66,9 +62,7 @@
                                 <div class="tm-author-text">
                                     <h4>Hisham Hamdy</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div> --}}
                         <div class="testimonial-single">
@@ -86,9 +80,7 @@
                                 <div class="tm-author-text">
                                     <h4>Tom Golisano</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div>
                         <div class="testimonial-single">
@@ -106,9 +98,7 @@
                                 <div class="tm-author-text">
                                     <h4>Millie Xinban</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div>
                         <div class="testimonial-single">
@@ -126,9 +116,7 @@
                                 <div class="tm-author-text">
                                     <h4>Emma Tilman</h4>
                                 </div>
-                                <div class="tm-icon">
-                                    <img src="{{ asset('assets/frontend/img/icon/tm-02.png') }}" alt="">
-                                </div>
+
                             </div>
                         </div>
                     </div>

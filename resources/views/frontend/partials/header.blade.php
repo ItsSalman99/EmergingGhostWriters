@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <div class="ht-left f-left">
                         <span><a href="mailto:info@emergingghostwriters.com">info@emergingghostwriters.com</a></span>
-                        <span><a href="tel:13613554874">+1 361 355 4874</a></span>
+                        <span><a href="tel:3613606071">(361) 360-6071</a></span>
                     </div>
                     <div class="ht-right f-right">
                     </div>
@@ -43,6 +43,7 @@
                                 <nav class="main-menu">
                                     <ul>
                                         <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                        <li><a href="{{ route('blog.index') }}">Blog</a></li>
                                     </ul>
                                 </nav>
                             </div>

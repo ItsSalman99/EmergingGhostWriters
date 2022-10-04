@@ -1802,6 +1802,11 @@ select {
     overflow: hidden;
 }
 
+.tm-author{
+    position: absolute;
+    bottom: 50px;
+}
+
 .testimonial-2 .testimonial-active .tm-author {
     border-top: 1px solid #efefef;
     margin-top: 30px;

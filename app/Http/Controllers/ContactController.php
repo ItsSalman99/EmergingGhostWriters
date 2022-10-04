@@ -21,9 +21,9 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         // dd($request->all());
-  
+
         if ($request->ajax()) {
-            dd($request->all());            
+            dd($request->all());
         }
 
         Client::create([
