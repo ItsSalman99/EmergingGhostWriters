@@ -33,7 +33,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-5 col-8">
 
                         <a href="/">
-                            <img width="80%" class="logo" src="{{ asset('assets/frontend/img/logo/logo.png') }}"
+                            <img width="100%"  class="logo" src="{{ asset('assets/frontend/img/logo/logo.png') }}"
                                 alt=""></a>
 
                     </div>
